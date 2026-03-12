@@ -97,6 +97,39 @@
 
 ---
 
+## 📰 媒体与行业动态
+
+> AI 科研自动化系统与行业重要进展
+
+### 🔥 值得关注的系统
+
+| 系统 | 公司 | 状态 | 简介 |
+|------|------|------|------|
+| **AI Co-Scientist** | Google DeepMind | 🔒 闭源 | 多Agent系统，自动生成假设和实验设计 |
+| **FARS** | FutureHouse | 🔒 闭源 | 全栈自主科研系统 |
+| **AI Scientist v2** | SakanaAI | ✅ 开源 | 端到端自动化科学发现 |
+| **AutoResearch** | Karpathy | ✅ 开源 | 单GPU研究Agent |
+| **Coscientist** | 多个实验室 | ✅ 开源 | 自主化学和材料研究 |
+
+### 📊 行业时间线 (2026)
+
+| 日期 | 事件 | 来源 |
+|------|------|------|
+| 2026-03 | Google DeepMind 发布 AI Co-Scientist | DeepMind 博客 |
+| 2026-03 | SakanaAI 发布 AI-Scientist-v2 | GitHub |
+| 2026-03 | Karpathy 发布 autoresearch | GitHub |
+| 2026-02 | FARS 系统演示 | FutureHouse |
+
+### 🔗 媒体来源
+
+- **Google DeepMind 博客** - 官方AI研究公告
+- **OpenAI 博客** - 科研自动化更新
+- **Twitter/X** - @deepmind, @openai, #AIResearch
+- **Reddit** - r/MachineLearning, r/artificial
+- **Hacker News** - AI研究讨论
+
+---
+
 ## 🎓 学科分类
 
 > 按学科领域分类的AI研究Agent

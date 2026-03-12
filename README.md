@@ -97,6 +97,39 @@
 
 ---
 
+## 📰 Media & Industry News
+
+> Major AI research automation systems and industry developments
+
+### 🔥 Top Systems to Watch
+
+| System | Company | Status | Description |
+|--------|---------|--------|-------------|
+| **AI Co-Scientist** | Google DeepMind | 🔒 Proprietary | Multi-agent system for hypothesis generation and experiment design |
+| **FARS** | FutureHouse | 🔒 Proprietary | Full-stack autonomous research system |
+| **AI Scientist v2** | SakanaAI | ✅ Open Source | End-to-end automated scientific discovery |
+| **AutoResearch** | Karpathy | ✅ Open Source | Single-GPU research agent |
+| **Coscientist** | Various Labs | ✅ Open Source | Autonomous chemistry and materials research |
+
+### 📊 Industry Timeline (2026)
+
+| Date | Event | Source |
+|------|-------|--------|
+| 2026-03 | Google DeepMind AI Co-Scientist announced | DeepMind Blog |
+| 2026-03 | SakanaAI AI-Scientist-v2 released | GitHub |
+| 2026-03 | Karpathy releases autoresearch | GitHub |
+| 2026-02 | FARS system demonstration | FutureHouse |
+
+### 🔗 Media Sources
+
+- **Google DeepMind Blog** - Official AI research announcements
+- **OpenAI Blog** - Research automation updates
+- **Twitter/X** - @deepmind, @openai, #AIResearch
+- **Reddit** - r/MachineLearning, r/artificial
+- **Hacker News** - AI research discussions
+
+---
+
 ## 🎓 Domain Classification
 
 > AI Research Agents by Domain

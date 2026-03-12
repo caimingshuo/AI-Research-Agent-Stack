@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "2.0.0",
-    "lastUpdated": "2026-03-12T18:10:00+08:00",
+    "version": "2.1.0",
+    "lastUpdated": "2026-03-12T18:25:00+08:00",
     "slogan": {
       "en": "Looking Forward to the True Realization of AI Research Automation",
       "zh": "期待 AI 科研自动化的真正实现"
@@ -10,6 +10,114 @@
       "year": "2026",
       "minStars": 50
     }
+  },
+  "media": {
+    "systems": [
+      {
+        "name": "AI Co-Scientist",
+        "company": "Google DeepMind",
+        "status": "closed",
+        "url": "https://deepmind.google",
+        "description": {
+          "en": "Multi-agent system for hypothesis generation and experiment design",
+          "zh": "多Agent系统，自动生成假设和实验设计"
+        },
+        "lastUpdate": "2026-03-10"
+      },
+      {
+        "name": "FARS",
+        "company": "FutureHouse",
+        "status": "closed",
+        "url": "https://futurehouse.org",
+        "description": {
+          "en": "Full-stack autonomous research system",
+          "zh": "全栈自主科研系统"
+        },
+        "lastUpdate": "2026-02-15"
+      },
+      {
+        "name": "AI Scientist v2",
+        "company": "SakanaAI",
+        "status": "open",
+        "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+        "description": {
+          "en": "End-to-end automated scientific discovery",
+          "zh": "端到端自动化科学发现"
+        },
+        "lastUpdate": "2026-03-11"
+      },
+      {
+        "name": "AutoResearch",
+        "company": "Karpathy",
+        "status": "open",
+        "url": "https://github.com/karpathy/autoresearch",
+        "description": {
+          "en": "Single-GPU research agent",
+          "zh": "单GPU研究Agent"
+        },
+        "lastUpdate": "2026-03-08"
+      },
+      {
+        "name": "Coscientist",
+        "company": "Multiple Labs",
+        "status": "open",
+        "url": "https://github.com/jataware/open-coscientist",
+        "description": {
+          "en": "Autonomous chemistry and materials research",
+          "zh": "自主化学和材料研究"
+        },
+        "lastUpdate": "2026-03-09"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-03-12",
+        "event": {
+          "en": "AI-Research-Agent-Stack launched",
+          "zh": "AI-Research-Agent-Stack 发布"
+        },
+        "source": "GitHub"
+      },
+      {
+        "date": "2026-03-11",
+        "event": {
+          "en": "AI-Scientist-v2 released by SakanaAI",
+          "zh": "SakanaAI 发布 AI-Scientist-v2"
+        },
+        "source": "SakanaAI"
+      },
+      {
+        "date": "2026-03-10",
+        "event": {
+          "en": "Google DeepMind announces AI Co-Scientist",
+          "zh": "Google DeepMind 发布 AI Co-Scientist"
+        },
+        "source": "DeepMind Blog"
+      },
+      {
+        "date": "2026-03-08",
+        "event": {
+          "en": "Karpathy autoresearch goes viral",
+          "zh": "Karpathy autoresearch 爆火"
+        },
+        "source": "Twitter/X"
+      },
+      {
+        "date": "2026-02-15",
+        "event": {
+          "en": "FARS system demonstration by FutureHouse",
+          "zh": "FutureHouse 演示 FARS 系统"
+        },
+        "source": "FutureHouse"
+      }
+    ],
+    "sources": [
+      { "name": "Google DeepMind Blog", "url": "https://deepmind.google/discover/blog/", "type": "official" },
+      { "name": "OpenAI Blog", "url": "https://openai.com/blog/", "type": "official" },
+      { "name": "Twitter/X #AIResearch", "url": "https://twitter.com/search?q=%23AIResearch", "type": "social" },
+      { "name": "Reddit r/MachineLearning", "url": "https://reddit.com/r/MachineLearning", "type": "social" },
+      { "name": "Hacker News", "url": "https://news.ycombinator.com", "type": "social" }
+    ]
   },
   "highlights": [
     {

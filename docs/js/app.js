@@ -1,5 +1,19 @@
 // Data
 const data = {
+  systems: [
+    { name: "AI Co-Scientist", company: "Google DeepMind", status: "closed", url: "https://deepmind.google", desc: { en: "Multi-agent system for hypothesis generation", zh: "多Agent假设生成系统" } },
+    { name: "FARS", company: "FutureHouse", status: "closed", url: "https://futurehouse.org", desc: { en: "Full-stack autonomous research system", zh: "全栈自主科研系统" } },
+    { name: "AI Scientist v2", company: "SakanaAI", status: "open", url: "https://github.com/SakanaAI/AI-Scientist-v2", desc: { en: "End-to-end automated discovery", zh: "端到端自动发现" } },
+    { name: "AutoResearch", company: "Karpathy", status: "open", url: "https://github.com/karpathy/autoresearch", desc: { en: "Single-GPU research agent", zh: "单GPU研究Agent" } },
+    { name: "Coscientist", company: "Multiple Labs", status: "open", url: "https://github.com/jataware/open-coscientist", desc: { en: "Autonomous chemistry research", zh: "自主化学研究" } }
+  ],
+  timeline: [
+    { date: "2026-03-12", event: { en: "AI-Research-Agent-Stack launched", zh: "AI-Research-Agent-Stack 发布" }, source: "GitHub" },
+    { date: "2026-03-11", event: { en: "AI-Scientist-v2 released", zh: "AI-Scientist-v2 发布" }, source: "SakanaAI" },
+    { date: "2026-03-10", event: { en: "Google AI Co-Scientist announced", zh: "Google 发布 AI Co-Scientist" }, source: "DeepMind" },
+    { date: "2026-03-08", event: { en: "Karpathy autoresearch trending", zh: "Karpathy autoresearch 爆火" }, source: "Twitter/X" },
+    { date: "2026-02-15", event: { en: "FARS system demonstration", zh: "FARS 系统演示" }, source: "FutureHouse" }
+  ],
   projects: [
     { id: "autoresearch", name: "autoresearch", owner: "karpathy", url: "https://github.com/karpathy/autoresearch", stars: 27321, category: "full-stack-research", domain: "computer-science", desc: { en: "Single-GPU auto-research agent by Karpathy", zh: "Karpathy新作，单GPU自动研究Agent" }, tags: ["AutoML", "SingleGPU"], updated: "2026-03-12" },
     { id: "last30days-skill", name: "last30days-skill", owner: "mvanhorn", url: "https://github.com/mvanhorn/last30days-skill", stars: 4040, category: "literature-research", domain: "literature-review", desc: { en: "Cross-platform research aggregation", zh: "跨平台研究聚合工具" }, tags: ["RAG", "Multi-Source"], updated: "2026-03-12" },
@@ -35,6 +49,8 @@ let filter = 'all';
 
 // Init
 document.addEventListener('DOMContentLoaded', () => {
+  renderSystems();
+  renderTimeline();
   renderTopProjects();
   renderDomains();
   renderAllProjects();
@@ -51,10 +67,39 @@ function toggleLang() {
     el.textContent = el.getAttribute(`data-${lang}`);
   });
   
+  renderSystems();
+  renderTimeline();
   renderTopProjects();
   renderDomains();
   renderAllProjects();
   renderPapers();
+}
+
+// Render systems
+function renderSystems() {
+  document.getElementById('topSystems').innerHTML = data.systems.map(s => `
+    <div class="system-row">
+      <div>
+        <a href="${s.url}" target="_blank" style="color: var(--text); text-decoration: none; font-weight: 500;">${s.name}</a>
+        <div style="font-size: 0.6875rem; color: var(--text-muted);">${s.desc[lang]}</div>
+      </div>
+      <div class="system-company">${s.company}</div>
+      <span class="system-status ${s.status}">${s.status === 'open' ? '✅ Open' : '🔒 Closed'}</span>
+    </div>
+  `).join('');
+}
+
+// Render timeline
+function renderTimeline() {
+  document.getElementById('timeline').innerHTML = data.timeline.map(t => `
+    <div class="timeline-item">
+      <div class="timeline-date">${t.date}</div>
+      <div>
+        <div class="timeline-event">${t.event[lang]}</div>
+        <div class="timeline-source">${t.source}</div>
+      </div>
+    </div>
+  `).join('');
 }
 
 // Render top projects
