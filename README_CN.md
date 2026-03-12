@@ -3,6 +3,12 @@
 > 🚀 **全球最权威的 AI 科研工具与 Agent 论文索引库**  
 > 🔄 每周自动更新 | 📊 实时追踪 100+ 项目 | 🤖 由 OpenClaw 自动运维
 
+---
+
+## 🌐 [👉 点击查看实时在线看板 👈](https://caimingshuo.github.io/AI-Research-Agent-Stack/)
+
+---
+
 [![最后更新](https://img.shields.io/badge/更新-2026--03--12-brightgreen)](./trends)
 [![项目数](https://img.shields.io/badge/项目-50+-blue)](#-项目索引)
 [![论文数](https://img.shields.io/badge/论文-15+-orange)](#-论文精选)

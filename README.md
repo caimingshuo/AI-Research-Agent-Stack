@@ -3,6 +3,12 @@
 > 🚀 **The World's Most Authoritative AI Research Tools & Agent Paper Index**  
 > 🔄 Weekly Auto-Update | 📊 Tracking 100+ Projects | 🤖 Maintained by OpenClaw
 
+---
+
+## 🌐 [👉 点击查看实时在线看板 👈](https://caimingshuo.github.io/AI-Research-Agent-Stack/)
+
+---
+
 [![Last Updated](https://img.shields.io/badge/Updated-2026--03--12-brightgreen)](./trends)
 [![Projects](https://img.shields.io/badge/Projects-50+-blue)](#-project-index)
 [![Papers](https://img.shields.io/badge/Papers-15+-orange)](#-featured-papers)
