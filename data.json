@@ -1,11 +1,16 @@
 {
   "metadata": {
-    "version": "1.0.0",
-    "lastUpdated": "2026-03-12T11:46:00+08:00",
+    "version": "2.0.0",
+    "lastUpdated": "2026-03-12T12:22:00+08:00",
     "totalProjects": 14,
     "totalPapers": 3,
-    "maintainer": "OpenClaw Autonomous Repository Manager"
+    "totalArticles": 0,
+    "totalSoftware": 0,
+    "maintainer": "OpenClaw Autonomous Repository Manager",
+    "scope": "开源项目 + 论文 + 报道 + 开源软件"
   },
+  "articles": [],
+  "software": [],
   "projects": [
     {
       "id": "karpathy-autoresearch",

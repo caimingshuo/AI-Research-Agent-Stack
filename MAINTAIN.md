@@ -6,10 +6,20 @@
 - **所有者**: caimingshuo
 - **URL**: https://github.com/caimingshuo/AI-Research-Agent-Stack
 - **本地路径**: /Users/cms/.openclaw/workspace/AI-Research-Agent-Stack
+- **定位**: 🌟 期待 AI 科研自动化的真正实现
+
+## 收录范围
+
+| 类型 | 来源 | 更新频率 |
+|------|------|----------|
+| 📦 GitHub 项目 | GitHub API | 每日 |
+| 📄 论文 | ArXiv API | 每日 |
+| 📰 新闻报道 | Twitter/X, Reddit, HN | 每日 |
+| 💻 开源软件 | PyPI, npm, Docker Hub | 每日 |
 
 ## 维护任务
 
-### 每周任务（自动执行）
+### 每日任务（自动执行）
 
 1. **扫描新项目**
    - GitHub API: 搜索 `ai+research+agent`, `automated+science`, `paper+writing+agent`

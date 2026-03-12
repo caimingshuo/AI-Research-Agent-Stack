@@ -1,7 +1,7 @@
 # 🧠 AI Research Agent Stack
 
-> 🚀 **The World's Most Authoritative AI Research Tools & Agent Paper Index**  
-> 🔄 Weekly Auto-Update | 📊 Tracking 100+ Projects | 🤖 Maintained by OpenClaw
+> 🌟 **期待 AI 科研自动化的真正实现**  
+> 🔄 每日更新 | 📦 开源项目 + 论文 + 报道 | 🤖 OpenClaw 运维
 
 ---
 
@@ -33,9 +33,10 @@
   - [🔧 Research Tools & Workflows](#-research-tools--workflows)
   - [📝 Paper Writing Assistants](#-paper-writing-assistants)
 - [📄 Featured Papers](#-featured-papers)
+- [📰 News & Articles](#-news--articles)
+- [💻 Open Source Software](#-open-source-software)
 - [🤗 HuggingFace Models](#-huggingface-models)
 - [📊 Statistics](#-statistics)
-- [📚 Legacy/Archived](#-legacyarchived)
 
 ---
 
@@ -122,6 +123,26 @@
 - **Tech Highlights**: Autonomous examination requisition, clinical experience externalization
 - **Tags**: `#Self-Evolving` `#Clinical-AI`
 - **Published**: 2026-03-11
+
+---
+
+## 📰 News & Articles
+
+> 最新报道、博客文章、技术动态
+
+*暂无最新报道，每日自动扫描更新中...*
+
+> 如果你有好文章推荐，欢迎提交 Issue！
+
+---
+
+## 💻 Open Source Software
+
+> 非GitHub托管的开源软件、工具包
+
+*暂无收录，每日自动扫描更新中...*
+
+> 欢迎推荐 PyPI、npm、Docker Hub 等平台上的科研工具！
 
 ---
 
