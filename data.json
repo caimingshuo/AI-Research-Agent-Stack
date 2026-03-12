@@ -1,226 +1,320 @@
 {
   "metadata": {
     "version": "2.0.0",
-    "lastUpdated": "2026-03-12T12:22:00+08:00",
-    "totalProjects": 14,
-    "totalPapers": 3,
-    "totalArticles": 0,
-    "totalSoftware": 0,
-    "maintainer": "OpenClaw Autonomous Repository Manager",
-    "scope": "开源项目 + 论文 + 报道 + 开源软件"
+    "lastUpdated": "2026-03-12T18:10:00+08:00",
+    "slogan": {
+      "en": "Looking Forward to the True Realization of AI Research Automation",
+      "zh": "期待 AI 科研自动化的真正实现"
+    },
+    "criteria": {
+      "year": "2026",
+      "minStars": 50
+    }
   },
-  "articles": [],
-  "software": [],
+  "highlights": [
+    {
+      "rank": 1,
+      "name": "autoresearch",
+      "owner": "karpathy",
+      "url": "https://github.com/karpathy/autoresearch",
+      "stars": 27321,
+      "description": {
+        "en": "Single-GPU auto-research agent by Karpathy",
+        "zh": "Karpathy新作，单GPU自动研究Agent"
+      },
+      "tags": ["OpenSource", "SingleGPU", "AutoML"],
+      "domain": "computer-science"
+    },
+    {
+      "rank": 2,
+      "name": "AI-Scientist-v2",
+      "owner": "SakanaAI",
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "stars": 2257,
+      "description": {
+        "en": "End-to-end research automation",
+        "zh": "端到端科研自动化"
+      },
+      "tags": ["OpenSource", "Multi-Agent", "End-to-End"],
+      "domain": "general-science"
+    },
+    {
+      "rank": 3,
+      "name": "last30days-skill",
+      "owner": "mvanhorn",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "stars": 4040,
+      "description": {
+        "en": "Cross-platform research aggregation",
+        "zh": "跨平台研究聚合工具"
+      },
+      "tags": ["OpenSource", "Multi-Source", "RAG"],
+      "domain": "literature-review"
+    }
+  ],
   "projects": [
     {
       "id": "karpathy-autoresearch",
       "name": "autoresearch",
       "owner": "karpathy",
-      "fullName": "karpathy/autoresearch",
       "url": "https://github.com/karpathy/autoresearch",
-      "stars": 26534,
-      "language": "Python",
+      "stars": 27321,
       "category": "full-stack-research",
-      "description": "AI agents running research on single-GPU nanochat training automatically",
-      "tags": ["OpenSource", "SingleGPU", "AutoML"],
-      "lastUpdated": "2026-03-12",
-      "firstAdded": "2026-03-12",
-      "isActive": true
+      "description": {
+        "en": "AI agents running research on single-GPU nanochat training automatically",
+        "zh": "单GPU自动研究Agent，自动训练nanochat模型"
+      },
+      "tags": ["AutoML", "SingleGPU"],
+      "domain": "computer-science",
+      "updated": "2026-03-12",
+      "created": "2026-03-01"
     },
     {
       "id": "sakanaai-ai-scientist-v2",
       "name": "AI-Scientist-v2",
       "owner": "SakanaAI",
-      "fullName": "SakanaAI/AI-Scientist-v2",
       "url": "https://github.com/SakanaAI/AI-Scientist-v2",
       "stars": 2257,
-      "language": "Python",
       "category": "full-stack-research",
-      "description": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
-      "tags": ["OpenSource", "Multi-Agent", "End-to-End"],
-      "lastUpdated": "2026-03-11",
-      "firstAdded": "2026-03-12",
-      "isActive": true
+      "description": {
+        "en": "Workshop-level automated scientific discovery via Agentic Tree Search",
+        "zh": "Workshop级别自动化科学发现"
+      },
+      "tags": ["Multi-Agent", "End-to-End"],
+      "domain": "general-science",
+      "updated": "2026-03-11"
     },
     {
       "id": "mvanhorn-last30days-skill",
       "name": "last30days-skill",
       "owner": "mvanhorn",
-      "fullName": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "stars": 4031,
-      "language": "Python",
+      "stars": 4040,
       "category": "literature-research",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web",
-      "tags": ["OpenSource", "Multi-Source", "RAG-Based"],
-      "lastUpdated": "2026-03-12",
-      "firstAdded": "2026-03-12",
-      "isActive": true
+      "description": {
+        "en": "Cross-platform research aggregation across Reddit, X, YouTube, HN",
+        "zh": "跨平台研究聚合，覆盖Reddit/X/YouTube/HN"
+      },
+      "tags": ["Multi-Source", "RAG"],
+      "domain": "literature-review",
+      "updated": "2026-03-12"
     },
     {
-      "id": "openags-auto-research",
-      "name": "auto-research",
-      "owner": "openags",
-      "fullName": "openags/auto-research",
-      "url": "https://github.com/openags/auto-research",
-      "stars": 42,
-      "language": "Python",
-      "category": "full-stack-research",
-      "description": "Autonomous Generalist Scientist / AI Scientist / Agent Scientist / Robot Scientist",
-      "tags": ["OpenSource", "Framework"],
-      "lastUpdated": "2026-03-10",
-      "firstAdded": "2026-03-12",
-      "isActive": true
+      "id": "steveclarke-real-world-rails",
+      "name": "real-world-rails",
+      "owner": "steveclarke",
+      "url": "https://github.com/steveclarke/real-world-rails",
+      "stars": 472,
+      "category": "tools",
+      "description": {
+        "en": "200+ production open source Rails apps with AI-powered search",
+        "zh": "200+生产级Rails应用，AI搜索支持"
+      },
+      "tags": ["Search", "Production"],
+      "domain": "software-engineering",
+      "updated": "2026-03-11"
     },
     {
-      "id": "jataware-open-coscientist",
-      "name": "open-coscientist",
-      "owner": "jataware",
-      "fullName": "jataware/open-coscientist",
-      "url": "https://github.com/jataware/open-coscientist",
-      "stars": 15,
-      "language": "Python",
-      "category": "full-stack-research",
-      "description": "Open Coscientist is an open-source adaptation based on Google Research's AI Co-Scientist research paper",
-      "tags": ["OpenSource", "Reproduction"],
-      "lastUpdated": "2026-03-09",
-      "firstAdded": "2026-03-12",
-      "isActive": true
+      "id": "refoundai-lenny-skills",
+      "name": "lenny-skills",
+      "owner": "RefoundAI",
+      "url": "https://github.com/RefoundAI/lenny-skills",
+      "stars": 410,
+      "category": "tools",
+      "description": {
+        "en": "86 product management skills for AI agents",
+        "zh": "86个AI Agent产品管理技能"
+      },
+      "tags": ["Skills", "Product"],
+      "domain": "business",
+      "updated": "2026-03-12"
     },
     {
       "id": "voltagent-awesome-ai-agent-papers",
       "name": "awesome-ai-agent-papers",
       "owner": "VoltAgent",
-      "fullName": "VoltAgent/awesome-ai-agent-papers",
       "url": "https://github.com/VoltAgent/awesome-ai-agent-papers",
       "stars": 289,
-      "language": null,
       "category": "literature-research",
-      "description": "A curated collection of AI agent research papers released in 2026",
-      "tags": ["OpenSource", "Curated"],
-      "lastUpdated": "2026-03-11",
-      "firstAdded": "2026-03-12",
-      "isActive": true
+      "description": {
+        "en": "2026 AI Agent research papers collection",
+        "zh": "2026年AI Agent论文精选集"
+      },
+      "tags": ["Curated", "Papers"],
+      "domain": "literature-review",
+      "updated": "2026-03-11"
+    },
+    {
+      "id": "eronred-aso-skills",
+      "name": "aso-skills",
+      "owner": "Eronred",
+      "url": "https://github.com/Eronred/aso-skills",
+      "stars": 256,
+      "category": "tools",
+      "description": {
+        "en": "AI agent skills for App Store Optimization",
+        "zh": "AI Agent应用商店优化技能"
+      },
+      "tags": ["ASO", "Mobile"],
+      "domain": "marketing",
+      "updated": "2026-03-11"
+    },
+    {
+      "id": "dylanfeltus-skills",
+      "name": "skills",
+      "owner": "dylanfeltus",
+      "url": "https://github.com/dylanfeltus/skills",
+      "stars": 168,
+      "category": "tools",
+      "description": {
+        "en": "AI agent skills for research and design",
+        "zh": "AI Agent研究和设计技能库"
+      },
+      "tags": ["Skills", "Design"],
+      "domain": "design",
+      "updated": "2026-03-09"
+    },
+    {
+      "id": "internscience-awesome-scientific-skills",
+      "name": "Awesome-Scientific-Skills",
+      "owner": "InternScience",
+      "url": "https://github.com/InternScience/Awesome-Scientific-Skills",
+      "stars": 178,
+      "category": "tools",
+      "description": {
+        "en": "Curated collection of Agent Skills for scientific research",
+        "zh": "科研Agent技能精选集合"
+      },
+      "tags": ["Skills", "Scientific"],
+      "domain": "general-science",
+      "updated": "2026-03-10"
     },
     {
       "id": "zimoliao-scholaraio",
       "name": "scholaraio",
       "owner": "ZimoLiao",
-      "fullName": "ZimoLiao/scholaraio",
       "url": "https://github.com/ZimoLiao/scholaraio",
-      "stars": 98,
-      "language": "Python",
+      "stars": 113,
       "category": "literature-research",
-      "description": "Scholar All-In-One: AI agent-powered research terminal",
-      "tags": ["OpenSource", "Terminal"],
-      "lastUpdated": "2026-03-12",
-      "firstAdded": "2026-03-12",
-      "isActive": true
+      "description": {
+        "en": "AI agent-powered academic research terminal",
+        "zh": "AI驱动的学术研究终端"
+      },
+      "tags": ["Terminal", "Research"],
+      "domain": "literature-review",
+      "updated": "2026-03-12"
     },
     {
       "id": "ymx10086-researchclaw",
       "name": "ResearchClaw",
       "owner": "ymx10086",
-      "fullName": "ymx10086/ResearchClaw",
       "url": "https://github.com/ymx10086/ResearchClaw",
       "stars": 97,
-      "language": "Python",
       "category": "literature-research",
-      "description": "ResearchClaw is a personal AI assistant built for research",
-      "tags": ["OpenSource", "OpenClaw"],
-      "lastUpdated": "2026-03-11",
-      "firstAdded": "2026-03-12",
-      "isActive": true
-    },
-    {
-      "id": "facebookresearch-airs-bench",
-      "name": "airs-bench",
-      "owner": "facebookresearch",
-      "fullName": "facebookresearch/airs-bench",
-      "url": "https://github.com/facebookresearch/airs-bench",
-      "stars": 66,
-      "language": "Python",
-      "category": "benchmark",
-      "description": "AIRS-Bench: an AI Research Science benchmark for quantifying the end-to-end AI research abilities",
-      "tags": ["OpenSource", "Benchmark", "Meta"],
-      "lastUpdated": "2026-03-09",
-      "firstAdded": "2026-03-12",
-      "isActive": true
-    },
-    {
-      "id": "internscience-scievalkit",
-      "name": "SciEvalKit",
-      "owner": "InternScience",
-      "fullName": "InternScience/SciEvalKit",
-      "url": "https://github.com/InternScience/SciEvalKit",
-      "stars": 74,
-      "language": "Python",
-      "category": "benchmark",
-      "description": "A unified evaluation toolkit and leaderboard for rigorously assessing the scientific intelligence",
-      "tags": ["OpenSource", "Leaderboard"],
-      "lastUpdated": "2026-02-27",
-      "firstAdded": "2026-03-12",
-      "isActive": true
+      "description": {
+        "en": "Personal AI research assistant built on OpenClaw",
+        "zh": "基于OpenClaw的个人研究助手"
+      },
+      "tags": ["OpenClaw", "Assistant"],
+      "domain": "literature-review",
+      "updated": "2026-03-11"
     },
     {
       "id": "agents2agentsai-ata",
       "name": "ata",
       "owner": "Agents2AgentsAI",
-      "fullName": "Agents2AgentsAI/ata",
       "url": "https://github.com/Agents2AgentsAI/ata",
       "stars": 67,
-      "language": "Python",
       "category": "workflow-tools",
-      "description": "AI agents for solving engineering and research problems end to end",
-      "tags": ["OpenSource", "Multi-Agent"],
-      "lastUpdated": "2026-03-11",
-      "firstAdded": "2026-03-12",
-      "isActive": true
+      "description": {
+        "en": "AI agents for solving engineering and research problems",
+        "zh": "端到端工程和研究问题解决Agent"
+      },
+      "tags": ["Multi-Agent", "Workflow"],
+      "domain": "computer-science",
+      "updated": "2026-03-11"
     },
     {
-      "id": "dicklesworthstone-brenner-bot",
-      "name": "brenner_bot",
-      "owner": "Dicklesworthstone",
-      "fullName": "Dicklesworthstone/brenner_bot",
-      "url": "https://github.com/Dicklesworthstone/brenner_bot",
-      "stars": 65,
-      "language": "Python",
-      "category": "workflow-tools",
-      "description": "Harness the scientific methods of Sydney Brenner using AI Agents",
-      "tags": ["OpenSource", "Methodology"],
-      "lastUpdated": "2026-03-07",
-      "firstAdded": "2026-03-12",
-      "isActive": true
+      "id": "facebookresearch-airs-bench",
+      "name": "airs-bench",
+      "owner": "facebookresearch",
+      "url": "https://github.com/facebookresearch/airs-bench",
+      "stars": 66,
+      "category": "benchmark",
+      "description": {
+        "en": "Meta's AI Research Science benchmark",
+        "zh": "Meta的AI研究科学基准测试"
+      },
+      "tags": ["Meta", "Benchmark"],
+      "domain": "general-science",
+      "updated": "2026-03-09"
     },
     {
-      "id": "fengxianji-the-library-of-ai-scientist",
-      "name": "The-Library-of-AI-Scientist",
-      "owner": "FengxianJi",
-      "fullName": "FengxianJi/The-Library-of-AI-Scientist",
-      "url": "https://github.com/FengxianJi/The-Library-of-AI-Scientist",
-      "stars": 3,
-      "language": "Python",
-      "category": "workflow-tools",
-      "description": "Over the next month, we will implement the comprehensive paper retrieval and organization system",
-      "tags": ["OpenSource", "Paper-Management"],
-      "lastUpdated": "2026-03-05",
-      "firstAdded": "2026-03-12",
-      "isActive": true
+      "id": "qtzx06-yolodex",
+      "name": "yolodex",
+      "owner": "qtzx06",
+      "url": "https://github.com/qtzx06/yolodex",
+      "stars": 75,
+      "category": "tools",
+      "description": {
+        "en": "Agent skills for autonomous data labeling (OpenAI Codex Hackathon winner)",
+        "zh": "自主数据标注Agent技能（OpenAI Codex黑客马拉松获奖）"
+      },
+      "tags": ["DataLabeling", "Hackathon"],
+      "domain": "data-science",
+      "updated": "2026-02-05"
     },
     {
-      "id": "yumuzhihan-paperpilot",
-      "name": "PaperPilot",
-      "owner": "yumuzhihan",
-      "fullName": "yumuzhihan/PaperPilot",
-      "url": "https://github.com/yumuzhihan/PaperPilot",
-      "stars": 0,
-      "language": "Python",
-      "category": "paper-writing",
-      "description": "AI-powered academic paper writing assistant. Automated literature search, research notes, and PDF generation",
-      "tags": ["OpenSource", "Writing-Helper"],
-      "lastUpdated": "2026-02-20",
-      "firstAdded": "2026-03-12",
-      "isActive": true
+      "id": "os-copilot-scienceboard",
+      "name": "ScienceBoard",
+      "owner": "OS-Copilot",
+      "url": "https://github.com/OS-Copilot/ScienceBoard",
+      "stars": 122,
+      "category": "benchmark",
+      "description": {
+        "en": "[ICLR 2026] Multimodal Autonomous Research benchmark",
+        "zh": "[ICLR 2026] 多模态自主研究基准"
+      },
+      "tags": ["ICLR", "Benchmark", "Multimodal"],
+      "domain": "general-science",
+      "updated": "2026-03-08"
+    }
+  ],
+  "domains": [
+    {
+      "id": "biology-medicine",
+      "name": {"en": "Biology & Medicine", "zh": "生物医学"},
+      "icon": "🧬",
+      "projects": ["brenner_bot"],
+      "description": {"en": "Clinical diagnosis, drug discovery", "zh": "临床诊断、药物发现"}
+    },
+    {
+      "id": "computer-science",
+      "name": {"en": "Computer Science", "zh": "计算机科学"},
+      "icon": "💻",
+      "projects": ["autoresearch", "ata"],
+      "description": {"en": "Code generation, experiment automation", "zh": "代码生成、实验自动化"}
+    },
+    {
+      "id": "data-science",
+      "name": {"en": "Data Science", "zh": "数据科学"},
+      "icon": "📊",
+      "projects": ["scholaraio", "ResearchClaw", "yolodex"],
+      "description": {"en": "Data analysis, visualization", "zh": "数据分析、可视化"}
+    },
+    {
+      "id": "literature-review",
+      "name": {"en": "Literature Review", "zh": "文献综述"},
+      "icon": "📚",
+      "projects": ["last30days-skill", "awesome-ai-agent-papers"],
+      "description": {"en": "Paper search, summarization", "zh": "论文搜索、摘要生成"}
+    },
+    {
+      "id": "general-science",
+      "name": {"en": "General Science", "zh": "通用科研"},
+      "icon": "🔬",
+      "projects": ["AI-Scientist-v2", "airs-bench", "ScienceBoard", "Awesome-Scientific-Skills"],
+      "description": {"en": "Hypothesis generation, experiment design", "zh": "假设生成、实验设计"}
     }
   ],
   "papers": [
@@ -229,46 +323,26 @@
       "arxivId": "2603.10808",
       "title": "Nurture-First Agent Development: Building Domain-Expert AI Agents Through Conversational Knowledge Crystallization",
       "url": "https://arxiv.org/abs/2603.10808",
-      "category": "agent-paradigm",
-      "abstract": "We propose Nurture-First Development (NFD), a paradigm in which agents are initialized with minimal scaffolding and progressively grown through structured conversational interaction with domain practitioners.",
-      "tags": ["Agent-Paradigm", "Knowledge-Crystallization"],
-      "publishedDate": "2026-03-11",
-      "firstAdded": "2026-03-12",
-      "recommendation": 5
+      "rating": 5,
+      "domain": "computer-science",
+      "description": {
+        "en": "Saves 60% Agent development time",
+        "zh": "节省60%的Agent开发时间"
+      },
+      "published": "2026-03-11"
     },
     {
       "id": "arxiv-2603-10677",
       "arxivId": "2603.10677",
       "title": "Emulating Clinician Cognition via Self-Evolving Deep Clinical Research",
       "url": "https://arxiv.org/abs/2603.10677",
-      "category": "self-evolving-agent",
-      "abstract": "We developed DxEvolve, a self-evolving diagnostic agent that bridges these gaps through an interactive deep clinical research workflow.",
-      "tags": ["Self-Evolving", "Clinical-AI"],
-      "publishedDate": "2026-03-11",
-      "firstAdded": "2026-03-12",
-      "recommendation": 5
-    },
-    {
-      "id": "arxiv-2603-10891",
-      "arxivId": "2603.10891",
-      "title": "A Hybrid Knowledge-Grounded Framework for Safety and Traceability in Prescription Verification",
-      "url": "https://arxiv.org/abs/2603.10891",
-      "category": "knowledge-graph",
-      "abstract": "We introduce PharmGraph-Auditor, a novel system designed for safe and evidence-grounded prescription auditing.",
-      "tags": ["Knowledge-Graph", "Healthcare"],
-      "publishedDate": "2026-03-11",
-      "firstAdded": "2026-03-12",
-      "recommendation": 4
+      "rating": 5,
+      "domain": "biology-medicine",
+      "description": {
+        "en": "Improves diagnostic accuracy by 11.2%",
+        "zh": "诊断准确率提升11.2%"
+      },
+      "published": "2026-03-11"
     }
-  ],
-  "categories": {
-    "full-stack-research": "全链路科研自动化",
-    "literature-research": "文献研究 & 信息聚合",
-    "benchmark": "科学评估 & Benchmark",
-    "workflow-tools": "科研工具 & 工作流",
-    "paper-writing": "论文写作助手",
-    "agent-paradigm": "Agent开发范式",
-    "self-evolving-agent": "自进化Agent",
-    "knowledge-graph": "知识图谱"
-  }
+  ]
 }

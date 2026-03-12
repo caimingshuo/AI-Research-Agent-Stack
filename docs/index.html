@@ -1,192 +1,87 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Research Agent Stack - 实时看板</title>
+    <title>AI Research Agent Stack</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- 导航栏 -->
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <span class="logo-icon">🧠</span>
-                <span class="logo-text">AI Research Agent Stack</span>
-            </div>
-            <div class="nav-links">
-                <a href="#highlights" class="nav-link">本周热点</a>
-                <a href="#projects" class="nav-link">项目索引</a>
-                <a href="#papers" class="nav-link">论文精选</a>
-                <a href="#stats" class="nav-link">统计数据</a>
-                <button class="lang-toggle" onclick="toggleLanguage()">
-                    <span id="langText">EN</span>
-                </button>
-                <button class="theme-toggle" onclick="toggleTheme()">
-                    <span id="themeIcon">🌙</span>
-                </button>
-            </div>
+        <div class="nav-brand">
+            <span class="nav-icon">🧠</span>
+            <span class="nav-title">AI Research Agent Stack</span>
+        </div>
+        <div class="nav-actions">
+            <a href="https://github.com/caimingshuo/AI-Research-Agent-Stack" class="nav-link" target="_blank">GitHub</a>
+            <button class="btn-lang" onclick="toggleLang()">
+                <span id="langLabel">中文</span>
+            </button>
         </div>
     </nav>
 
-    <!-- 主内容 -->
-    <main class="main-content">
-        <!-- Hero 区域 -->
+    <main>
         <section class="hero">
-            <div class="hero-bg">
-                <div class="hero-gradient"></div>
-                <div class="hero-particles" id="particles"></div>
-            </div>
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    <span class="title-gradient">AI Research Agent Stack</span>
-                </h1>
-                <p class="hero-subtitle" data-zh="🌟 期待 AI 科研自动化的真正实现" data-en="🌟 Looking Forward to the True Realization of AI Research Automation">
-                    🌟 期待 AI 科研自动化的真正实现
-                </p>
-                <div class="hero-stats">
-                    <div class="stat-item">
-                        <span class="stat-value" id="totalProjects">14</span>
-                        <span class="stat-label" data-zh="项目" data-en="Projects">项目</span>
-                    </div>
-                    <div class="stat-divider"></div>
-                    <div class="stat-item">
-                        <span class="stat-value" id="totalPapers">3</span>
-                        <span class="stat-label" data-zh="论文" data-en="Papers">论文</span>
-                    </div>
-                    <div class="stat-divider"></div>
-                    <div class="stat-item">
-                        <span class="stat-value" id="totalStars">33K+</span>
-                        <span class="stat-label" data-zh="总 Stars" data-en="Total Stars">总 Stars</span>
-                    </div>
+            <h1 class="hero-title">AI Research Agent Stack</h1>
+            <p class="hero-subtitle" data-en="🌟 Looking Forward to the True Realization of AI Research Automation" data-zh="🌟 期待 AI 科研自动化的真正实现">
+                🌟 Looking Forward to the True Realization of AI Research Automation
+            </p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-num" id="projectCount">15</span>
+                    <span class="stat-label" data-en="Projects" data-zh="项目">Projects</span>
                 </div>
-                <div class="hero-badges">
-                    <span class="badge badge-green">
-                        <span class="badge-dot"></span>
-                        <span data-zh="每日更新" data-en="Daily Updates">每日更新</span>
-                    </span>
-                    <span class="badge badge-blue">📦 项目</span>
-                    <span class="badge badge-purple">📄 论文</span>
-                    <span class="badge badge-orange">📰 报道</span>
-                    <span class="badge badge-cyan">💻 软件</span>
+                <div class="stat">
+                    <span class="stat-num" id="starCount">35K+</span>
+                    <span class="stat-label" data-en="Total Stars" data-zh="总Stars">Total Stars</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num" id="paperCount">2</span>
+                    <span class="stat-label" data-en="Papers" data-zh="论文">Papers</span>
                 </div>
             </div>
         </section>
 
-        <!-- 本周热点 -->
-        <section id="highlights" class="section">
-            <div class="section-header">
-                <h2 class="section-title">
-                    <span class="title-icon">🏆</span>
-                    <span data-zh="本周最值得关注" data-en="This Week's Highlights">本周最值得关注</span>
-                </h2>
-                <span class="update-time" id="updateTime">更新于 2026-03-12</span>
-            </div>
-            <div class="highlights-grid" id="highlightsGrid">
-                <!-- 动态生成 -->
-            </div>
-        </section>
-
-        <!-- 项目索引 -->
-        <section id="projects" class="section">
-            <div class="section-header">
-                <h2 class="section-title">
-                    <span class="title-icon">📦</span>
-                    <span data-zh="项目索引" data-en="Project Index">项目索引</span>
-                </h2>
-                <div class="filter-tabs">
-                    <button class="filter-tab active" data-filter="all" data-zh="全部" data-en="All">全部</button>
-                    <button class="filter-tab" data-filter="full-stack-research" data-zh="全链路" data-en="Full-Stack">全链路</button>
-                    <button class="filter-tab" data-filter="literature-research" data-zh="文献研究" data-en="Literature">文献研究</button>
-                    <button class="filter-tab" data-filter="benchmark" data-zh="评估" data-en="Benchmark">评估</button>
-                    <button class="filter-tab" data-filter="workflow-tools" data-zh="工具" data-en="Tools">工具</button>
-                </div>
-            </div>
-            <div class="projects-grid" id="projectsGrid">
-                <!-- 动态生成 -->
-            </div>
-        </section>
-
-        <!-- 论文精选 -->
-        <section id="papers" class="section">
-            <div class="section-header">
-                <h2 class="section-title">
-                    <span class="title-icon">📄</span>
-                    <span data-zh="论文精选" data-en="Featured Papers">论文精选</span>
-                </h2>
-            </div>
-            <div class="papers-list" id="papersList">
-                <!-- 动态生成 -->
-            </div>
-        </section>
-
-        <!-- 统计数据 -->
-        <section id="stats" class="section">
-            <div class="section-header">
-                <h2 class="section-title">
-                    <span class="title-icon">📊</span>
-                    <span data-zh="统计数据" data-en="Statistics">统计数据</span>
-                </h2>
-            </div>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-card-icon">📈</div>
-                    <div class="stat-card-value" id="weeklyNew">+5</div>
-                    <div class="stat-card-label" data-zh="本周新增" data-en="New This Week">本周新增</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-card-icon">⭐</div>
-                    <div class="stat-card-value" id="avgStars">2.4K</div>
-                    <div class="stat-card-label" data-zh="平均 Stars" data-en="Avg Stars">平均 Stars</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-card-icon">🔥</div>
-                    <div class="stat-card-value" id="activeProjects">14</div>
-                    <div class="stat-card-label" data-zh="活跃项目" data-en="Active Projects">活跃项目</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-card-icon">📅</div>
-                    <div class="stat-card-value" id="lastUpdate">03-12</div>
-                    <div class="stat-card-label" data-zh="最后更新" data-en="Last Updated">最后更新</div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 趋势图表 -->
         <section class="section">
-            <div class="section-header">
-                <h2 class="section-title">
-                    <span class="title-icon">📉</span>
-                    <span data-zh="趋势分析" data-en="Trend Analysis">趋势分析</span>
-                </h2>
+            <h2 class="section-title" data-en="🏆 Top Projects" data-zh="🏆 热门项目">🏆 Top Projects</h2>
+            <div class="grid" id="topProjects"></div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title" data-en="🎓 By Domain" data-zh="🎓 学科分类">🎓 By Domain</h2>
+            <div class="domains" id="domains"></div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title" data-en="📦 All Projects" data-zh="📦 全部项目">📦 All Projects</h2>
+            <div class="filters">
+                <button class="filter-btn active" data-cat="all" data-en="All" data-zh="全部">All</button>
+                <button class="filter-btn" data-cat="full-stack-research" data-en="Full-Stack" data-zh="全链路">Full-Stack</button>
+                <button class="filter-btn" data-cat="literature-research" data-en="Literature" data-zh="文献">Literature</button>
+                <button class="filter-btn" data-cat="benchmark" data-en="Benchmark" data-zh="基准">Benchmark</button>
+                <button class="filter-btn" data-cat="tools" data-en="Tools" data-zh="工具">Tools</button>
             </div>
-            <div class="chart-container">
-                <canvas id="trendChart"></canvas>
-            </div>
+            <div class="grid" id="allProjects"></div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title" data-en="📄 Featured Papers" data-zh="📄 论文精选">📄 Featured Papers</h2>
+            <div class="papers" id="papers"></div>
         </section>
     </main>
 
-    <!-- 页脚 -->
     <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-info">
-                <p data-zh="由 OpenClaw 自动运维" data-en="Maintained by OpenClaw">由 OpenClaw 自动运维</p>
-                <p class="footer-links">
-                    <a href="https://github.com/caimingshuo/AI-Research-Agent-Stack" target="_blank">GitHub</a>
-                    <span class="footer-divider">|</span>
-                    <a href="README.md">English</a>
-                    <span class="footer-divider">|</span>
-                    <a href="README_CN.md">中文</a>
-                </p>
-            </div>
-            <div class="footer-status">
-                <span class="status-dot"></span>
-                <span data-zh="系统运行中" data-en="System Online">系统运行中</span>
-            </div>
-        </div>
+        <p data-en="Maintained by OpenClaw · Updated 2026-03-12" data-zh="由 OpenClaw 运维 · 更新于 2026-03-12">
+            Maintained by OpenClaw · Updated 2026-03-12
+        </p>
+        <p class="footer-links">
+            <a href="https://github.com/caimingshuo/AI-Research-Agent-Stack" target="_blank">GitHub</a>
+            <span>·</span>
+            <a href="https://github.com/caimingshuo/AI-Research-Agent-Stack/blob/main/README.md">English</a>
+            <span>·</span>
+            <a href="https://github.com/caimingshuo/AI-Research-Agent-Stack/blob/main/README_CN.md">中文</a>
+        </p>
     </footer>
 
     <script src="js/app.js"></script>

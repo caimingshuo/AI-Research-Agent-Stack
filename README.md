@@ -1,25 +1,16 @@
 # 🧠 AI Research Agent Stack
 
-> 🌟 **期待 AI 科研自动化的真正实现**  
-> 🔄 每日更新 | 📦 开源项目 + 论文 + 报道 | 🤖 OpenClaw 运维
+> 🌟 **Looking Forward to the True Realization of AI Research Automation**
 
 ---
 
-## 🌐 [👉 点击查看实时在线看板 👈](https://caimingshuo.github.io/AI-Research-Agent-Stack/)
+## 🌐 [👉 Live Dashboard](https://caimingshuo.github.io/AI-Research-Agent-Stack/) | [中文版](./README_CN.md)
 
 ---
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026--03--12-brightgreen)](./trends)
 [![Projects](https://img.shields.io/badge/Projects-50+-blue)](#-project-index)
 [![Papers](https://img.shields.io/badge/Papers-15+-orange)](#-featured-papers)
-[![🌐 中文版](https://img.shields.io/badge/🌐-中文版-red)](./README_CN.md)
-
----
-
-## 🌐 Language / 语言
-
-- **English** (Current)
-- [**中文版**](./README_CN.md)
 
 ---
 
@@ -31,11 +22,9 @@
   - [📚 Literature Research & Aggregation](#-literature-research--aggregation)
   - [🧪 Benchmarks & Evaluation](#-benchmarks--evaluation)
   - [🔧 Research Tools & Workflows](#-research-tools--workflows)
-  - [📝 Paper Writing Assistants](#-paper-writing-assistants)
 - [📄 Featured Papers](#-featured-papers)
+- [🎓 Domain Classification](#-domain-classification)
 - [📰 News & Articles](#-news--articles)
-- [💻 Open Source Software](#-open-source-software)
-- [🤗 HuggingFace Models](#-huggingface-models)
 - [📊 Statistics](#-statistics)
 
 ---
@@ -44,116 +33,89 @@
 
 > Updated: 2026-03-12
 
-| Rank | Project | Stars | Core Highlights | Tags |
-|------|---------|-------|-----------------|------|
-| 🥇 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 26,534 | **Karpathy's New Release!** Single-GPU auto-research agent, saves 80% experiment setup time | `#OpenSource` `#SingleGPU` `#AutoML` |
-| 🥈 | [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | ⭐ 2,257 | End-to-end research automation: idea→experiment→paper | `#OpenSource` `#Multi-Agent` `#End-to-End` |
-| 🥉 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | ⭐ 4,031 | Cross-platform research aggregation, covers Reddit/X/YouTube/HN | `#OpenSource` `#Multi-Source` `#RAG-Based` |
+| Rank | Project | Stars | Description | Tags |
+|------|---------|-------|-------------|------|
+| 🥇 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 26,534 | Single-GPU auto-research agent by Karpathy | `#OpenSource` `#SingleGPU` |
+| 🥈 | [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | ⭐ 2,257 | End-to-end research automation | `#OpenSource` `#Multi-Agent` |
+| 🥉 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | ⭐ 4,031 | Cross-platform research aggregation | `#OpenSource` `#RAG` |
 
 ---
 
 ## 📦 Project Index
 
+> 📋 Criteria: Created/Updated in 2026, Stars ≥ 50
+
 ### 🔬 Full-Stack Research Automation
 
-> End-to-end research workflow automation tools
-
-| Project | Stars | Core Value | Tech Highlights | Updated | Tags |
-|---------|-------|------------|-----------------|---------|------|
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 26,534 | Single-GPU auto-research, lightweight solution | Karpathy's work, nanochat training | 2026-03-12 | `#OpenSource` `#SingleGPU` |
-| [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | ⭐ 2,257 | Workshop-level automated scientific discovery | Agentic Tree Search, Multi-Agent | 2026-03-11 | `#OpenSource` `#Multi-Agent` |
-| [openags/auto-research](https://github.com/openags/auto-research) | ⭐ 42 | General autonomous scientist framework | Modular design | 2026-03-10 | `#OpenSource` `#Framework` |
-| [jataware/open-coscientist](https://github.com/jataware/open-coscientist) | ⭐ 15 | Open-source reproduction of Google AI Co-Scientist | Hypothesis generation | 2026-03-09 | `#OpenSource` `#Reproduction` |
+| Project | Stars | Description | Updated | Tags |
+|---------|-------|-------------|---------|------|
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 26,534 | Single-GPU auto-research agent | 2026-03-12 | `#AutoML` `#SingleGPU` |
+| [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | ⭐ 2,257 | Workshop-level automated scientific discovery | 2026-03-11 | `#Multi-Agent` `#End-to-End` |
+| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | ⭐ 4,031 | Cross-platform research aggregation | 2026-03-12 | `#Multi-Source` `#RAG` |
+| [VoltAgent/awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) | ⭐ 289 | 2026 AI Agent paper collection | 2026-03-11 | `#Curated` `#Papers` |
 
 ### 📚 Literature Research & Aggregation
 
-> Paper search, reading, and review generation tools
-
-| Project | Stars | Core Value | Tech Highlights | Updated | Tags |
-|---------|-------|------------|-----------------|---------|------|
-| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | ⭐ 4,031 | Cross-platform research aggregation, saves 30% info gathering time | Reddit/X/YouTube/HN integration | 2026-03-12 | `#OpenSource` `#Multi-Source` |
-| [VoltAgent/awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) | ⭐ 289 | 2026 AI Agent paper collection, saves 50% literature screening time | Curated, continuously updated | 2026-03-11 | `#OpenSource` `#Curated` |
-| [ZimoLiao/scholaraio](https://github.com/ZimoLiao/scholaraio) | ⭐ 98 | AI-powered academic research terminal | Terminal UI, local/cloud deployment | 2026-03-12 | `#OpenSource` `#Terminal` |
-| [ymx10086/ResearchClaw](https://github.com/ymx10086/ResearchClaw) | ⭐ 97 | Personal research assistant built on OpenClaw | OpenClaw ecosystem | 2026-03-11 | `#OpenSource` `#OpenClaw` |
+| Project | Stars | Description | Updated | Tags |
+|---------|-------|-------------|---------|------|
+| [ZimoLiao/scholaraio](https://github.com/ZimoLiao/scholaraio) | ⭐ 98 | AI-powered academic research terminal | 2026-03-12 | `#Terminal` `#Research` |
+| [ymx10086/ResearchClaw](https://github.com/ymx10086/ResearchClaw) | ⭐ 97 | Personal research assistant on OpenClaw | 2026-03-11 | `#OpenClaw` `#Assistant` |
 
 ### 🧪 Benchmarks & Evaluation
 
-> Standardized evaluation tools for AI research capabilities
-
-| Project | Stars | Core Value | Tech Highlights | Updated | Tags |
-|---------|-------|------------|-----------------|---------|------|
-| [facebookresearch/airs-bench](https://github.com/facebookresearch/airs-bench) | ⭐ 66 | Meta's benchmark for quantifying end-to-end AI research abilities | Standardized evaluation | 2026-03-09 | `#OpenSource` `#Benchmark` `#Meta` |
-| [InternScience/SciEvalKit](https://github.com/InternScience/SciEvalKit) | ⭐ 74 | Scientific intelligence evaluation toolkit and leaderboard | Multi-dimensional evaluation | 2026-02-27 | `#OpenSource` `#Leaderboard` |
+| Project | Stars | Description | Updated | Tags |
+|---------|-------|-------------|---------|------|
+| [InternScience/SciEvalKit](https://github.com/InternScience/SciEvalKit) | ⭐ 74 | Scientific intelligence evaluation toolkit | 2026-02-27 | `#Benchmark` `#Leaderboard` |
+| [facebookresearch/airs-bench](https://github.com/facebookresearch/airs-bench) | ⭐ 66 | Meta's AI research benchmark | 2026-03-09 | `#Meta` `#Benchmark` |
 
 ### 🔧 Research Tools & Workflows
 
-> Tools to enhance research efficiency
-
-| Project | Stars | Core Value | Tech Highlights | Updated | Tags |
-|---------|-------|------------|-----------------|---------|------|
-| [Agents2AgentsAI/ata](https://github.com/Agents2AgentsAI/ata) | ⭐ 67 | End-to-end engineering and research problem solving | Multi-Agent collaboration | 2026-03-11 | `#OpenSource` `#Multi-Agent` |
-| [Dicklesworthstone/brenner_bot](https://github.com/Dicklesworthstone/brenner_bot) | ⭐ 65 | Implementing Sydney Brenner's scientific methodology | Biology research methodology | 2026-03-07 | `#OpenSource` `#Methodology` |
-
-### 📝 Paper Writing Assistants
-
-> Paper writing, polishing, and formatting tools
-
-| Project | Stars | Core Value | Tech Highlights | Updated | Tags |
-|---------|-------|------------|-----------------|---------|------|
-| [yumuzhihan/PaperPilot](https://github.com/yumuzhihan/PaperPilot) | ⭐ 0 | AI academic writing assistant, auto literature search | PDF generation, research notes | 2026-02-20 | `#OpenSource` `#Writing-Helper` |
+| Project | Stars | Description | Updated | Tags |
+|---------|-------|-------------|---------|------|
+| [Agents2AgentsAI/ata](https://github.com/Agents2AgentsAI/ata) | ⭐ 67 | End-to-end engineering/research agents | 2026-03-11 | `#Multi-Agent` `#Workflow` |
+| [Dicklesworthstone/brenner_bot](https://github.com/Dicklesworthstone/brenner_bot) | ⭐ 65 | Sydney Brenner's methodology with AI | 2026-03-07 | `#Methodology` `#Biology` |
 
 ---
 
 ## 📄 Featured Papers
 
-> Latest papers from ArXiv in AI + Science intersection
+> Latest papers from ArXiv (cs.AI, cs.CL, cs.LG)
 
 ### ⭐⭐⭐⭐⭐ Highly Recommended
 
-#### [Nurture-First Agent Development: Building Domain-Expert AI Agents Through Conversational Knowledge Crystallization](https://arxiv.org/abs/2603.10808)
-- **Category**: Agent Development Paradigm / Domain-Expert Agent
-- **Core Value**: Proposes "Nurture-First Development" paradigm, **saves 60% Agent development time**
-- **Tech Highlights**: Three-layer cognitive architecture, Knowledge Crystallization Cycle
-- **Tags**: `#Agent-Paradigm` `#Knowledge-Crystallization`
+#### [Nurture-First Agent Development](https://arxiv.org/abs/2603.10808)
+- **Category**: Agent Development Paradigm
+- **Value**: Saves 60% Agent development time
+- **Highlights**: Three-layer cognitive architecture, Knowledge Crystallization Cycle
 - **Published**: 2026-03-11
 
 #### [Emulating Clinician Cognition via Self-Evolving Deep Clinical Research](https://arxiv.org/abs/2603.10677)
-- **Category**: Self-Evolving Diagnostic Agent / Clinical AI
-- **Core Value**: DxEvolve improves diagnostic accuracy by **11.2%**, reaching clinician-level performance
-- **Tech Highlights**: Autonomous examination requisition, clinical experience externalization
-- **Tags**: `#Self-Evolving` `#Clinical-AI`
+- **Category**: Self-Evolving Diagnostic Agent
+- **Value**: Improves diagnostic accuracy by 11.2%
+- **Highlights**: Autonomous examination requisition, MIMIC-CDM benchmark
 - **Published**: 2026-03-11
+
+---
+
+## 🎓 Domain Classification
+
+> AI Research Agents by Domain
+
+| Domain | Projects | Key Tools |
+|--------|----------|-----------|
+| 🧬 **Biology & Medicine** | [brenner_bot](https://github.com/Dicklesworthstone/brenner_bot), [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | Clinical diagnosis, Drug discovery |
+| 💻 **Computer Science** | [autoresearch](https://github.com/karpathy/autoresearch), [ata](https://github.com/Agents2AgentsAI/ata) | Code generation, Experiment automation |
+| 📊 **Data Science** | [scholaraio](https://github.com/ZimoLiao/scholaraio), [ResearchClaw](https://github.com/ymx10086/ResearchClaw) | Data analysis, Visualization |
+| 📚 **Literature Review** | [last30days-skill](https://github.com/mvanhorn/last30days-skill), [awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) | Paper search, Summarization |
+| 🔬 **General Science** | [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | Hypothesis generation, Experiment design |
 
 ---
 
 ## 📰 News & Articles
 
-> 最新报道、博客文章、技术动态
+> Latest coverage on AI Research Automation
 
-*暂无最新报道，每日自动扫描更新中...*
-
-> 如果你有好文章推荐，欢迎提交 Issue！
-
----
-
-## 💻 Open Source Software
-
-> 非GitHub托管的开源软件、工具包
-
-*暂无收录，每日自动扫描更新中...*
-
-> 欢迎推荐 PyPI、npm、Docker Hub 等平台上的科研工具！
-
----
-
-## 🤗 HuggingFace Models
-
-> Recommended models for scientific research
-
-**Search Keywords:**
-- `scientific-paper` - Academic paper processing models
-- `arxiv-summarization` - ArXiv paper summarization models
-- `research-assistant` - Research assistant models
+*Coming soon: Daily aggregation from Twitter/X, Reddit, Hacker News*
 
 ---
 
@@ -161,37 +123,21 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Projects | 14+ |
-| Total Papers | 3+ |
-| New This Week | 5 |
+| Total Projects | 10 |
+| Total Papers | 2 |
+| Total Stars | 33K+ |
 | Last Updated | 2026-03-12 |
-
----
-
-## 📚 Legacy/Archived
-
-> Projects archived due to 6+ months of inactivity
-
-*No archived projects yet*
-
----
-
-## 🔗 Quick Links
-
-- [📈 Trend Reports](./trends/) - Weekly/Monthly research trends
-- [🛠️ Tool Reviews](./tools/) - Detailed tool evaluations
-- [📊 Data File](./data.json) - Structured metadata
-- [🌐 Live Dashboard](https://caimingshuo.github.io/AI-Research-Agent-Stack/) - Real-time updates
 
 ---
 
 ## 🤝 Contributing
 
-This repository is maintained by **OpenClaw** autonomous repository manager. Contributions welcome:
+Maintained by **OpenClaw** autonomous repository manager.
+
 - Submit Issues to recommend new projects
 - Submit PRs to improve content
-- Star ⭐ to support the project
+- Star ⭐ to support
 
 ---
 
-*Last updated: 2026-03-12 by OpenClaw Autonomous Repository Manager*
+*Last updated: 2026-03-12*
