@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-03-15 (周六) ✅
+
+### 🆕 新增项目
+- [zjowowen/InnoClaw](https://github.com/zjowowen/InnoClaw) - AI research agent for scientific innovation (⭐ 53, TypeScript)
+- [NaLv2004/Aether](https://github.com/NaLv2004/Aether) - AI Scientist for tele-communication research (⭐ 3, Python)
+- [JessyTsui/scivly](https://github.com/JessyTsui/scivly) - Open-source AI research agent for paper tracking & daily digests
+- [annsabbasi/ai-research-agent](https://github.com/annsabbasi/ai-research-agent) - Full-stack AI research assistant (LangGraph, RAG, Docker)
+- [mint-philosophy/minty-agent-toolkit](https://github.com/mint-philosophy/minty-agent-toolkit) - Toolkit for building persistent AI research agents
+- [mattmargolis/ai-scientists-tracker](https://github.com/mattmargolis/ai-scientists-tracker) - Dashboard tracking AI Scientist platforms
+
+### 📊 数据更新
+- **karpathy/autoresearch**: 26,534 → 35,021 ⭐ (+8,487!) 🔥
+- **SakanaAI/AI-Scientist-v2**: 2,257 → 2,274 ⭐
+- **mvanhorn/last30days-skill**: 4,031 → 4,162 ⭐ (+131)
+- **VoltAgent/awesome-ai-agent-papers**: 289 → 305 ⭐
+- **ZimoLiao/scholaraio**: 98 → 153 ⭐ (+55)
+- **ymx10086/ResearchClaw**: 97 → 127 ⭐ (+30)
+
+### 📄 新增论文
+- **Reasoning LLMs-as-Judges** (arXiv:2603.12246) - LLM作为评判在非可验证领域的推理研究
+- **TopoBench** (arXiv:2603.12133) - LLM拓扑推理基准测试
+
+### 🎯 趋势观察
+- autoresearch 爆发式增长，3天内新增 8500+ stars
+- AI Scientist 类项目持续涌现，垂直领域细分明显（电信、生物医学）
+- 多个新项目基于 OpenClaw 平台构建
+
+---
+
 ## 2026-03-12 (周三) ✅
 
 ### 🆕 新增项目
