@@ -47,6 +47,11 @@ body {
     gap: 0.5rem;
 }
 
+.nav-logo {
+    width: 32px;
+    height: 32px;
+}
+
 .nav-icon { font-size: 1.5rem; }
 
 .nav-title {

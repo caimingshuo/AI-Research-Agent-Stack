@@ -1,6 +1,10 @@
-# 🧠 AI Research Agent Stack
-
-> 🌟 **Looking Forward to the True Realization of AI Research Automation**
+<div align="center">
+  <img src="logo.svg" alt="AI Research Agent Stack" width="120" height="120">
+  
+  # AI Research Agent Stack
+  
+  > 🌟 **Looking Forward to the True Realization of AI Research Automation**
+</div>
 
 ---
 

@@ -1,6 +1,10 @@
-# 🧠 AI Research Agent Stack
-
-> 🌟 **期待 AI 科研自动化的真正实现**
+<div align="center">
+  <img src="logo.svg" alt="AI Research Agent Stack" width="120" height="120">
+  
+  # AI Research Agent Stack
+  
+  > 🌟 **期待 AI 科研自动化的真正实现**
+</div>
 
 ---
 
