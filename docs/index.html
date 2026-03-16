@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar">
         <div class="nav-brand">
-            <img src="assets/logo.svg" alt="AI Research Agent Stack" class="nav-logo">
+            <img src="assets/logo.svg" alt="Logo" class="nav-logo">
             <span class="nav-title">AI Research Agent Stack</span>
         </div>
         <div class="nav-actions">
@@ -23,82 +23,94 @@
     </nav>
 
     <main>
+        <!-- Hero Section -->
         <section class="hero">
-            <h1 class="hero-title">AI Research Agent Stack</h1>
-            <p class="hero-subtitle" data-en="🌟 Looking Forward to the True Realization of AI Research Automation" data-zh="🌟 期待 AI 科研自动化的真正实现">
-                🌟 Looking Forward to the True Realization of AI Research Automation
-            </p>
-            <div class="hero-stats">
-                <div class="stat">
-                    <span class="stat-num" id="projectCount">50+</span>
-                    <span class="stat-label" data-en="Projects" data-zh="项目">Projects</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-num" id="starCount">150K+</span>
-                    <span class="stat-label" data-en="Total Stars" data-zh="总Stars">Total Stars</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-num" id="paperCount">4</span>
-                    <span class="stat-label" data-en="Papers" data-zh="论文">Papers</span>
-                </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title" data-en="🏆 Top Projects" data-zh="🏆 热门项目">🏆 Top Projects</h2>
-            <div class="grid" id="topProjects"></div>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title" data-en="📰 Media & Industry" data-zh="📰 媒体动态">📰 Media & Industry</h2>
-            <div class="media-section">
-                <div class="media-card">
-                    <h3 class="media-title" data-en="🔥 Top Systems to Watch" data-zh="🔥 值得关注的系统">🔥 Top Systems to Watch</h3>
-                    <div class="systems-grid" id="topSystems"></div>
-                </div>
-                <div class="media-card">
-                    <h3 class="media-title" data-en="📊 Industry Timeline (2026)" data-zh="📊 行业时间线 (2026)">📊 Industry Timeline (2026)</h3>
-                    <div class="timeline" id="timeline"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-gradient">AI Research</span>
+                    <span class="title-accent">Agent Stack</span>
+                </h1>
+                <p class="hero-subtitle" data-en="Looking Forward to the True Realization of AI Research Automation" data-zh="期待 AI 科研自动化的真正实现">
+                    Looking Forward to the True Realization of AI Research Automation
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <span class="stat-num" id="projectCount">50+</span>
+                        <span class="stat-label" data-en="Projects" data-zh="项目">Projects</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num" id="starCount">150K+</span>
+                        <span class="stat-label" data-en="Stars" data-zh="Stars">Stars</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num" id="paperCount">4</span>
+                        <span class="stat-label" data-en="Papers" data-zh="论文">Papers</span>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="section">
-            <h2 class="section-title" data-en="🎓 By Domain" data-zh="🎓 学科分类">🎓 By Domain</h2>
-            <div class="domains" id="domains"></div>
+        <!-- Timeline Visualization -->
+        <section class="section timeline-section">
+            <h2 class="section-title" data-en="📈 Project Timeline" data-zh="📈 项目时间线">📈 Project Timeline</h2>
+            <div class="timeline-viz" id="timelineViz"></div>
         </section>
 
+        <!-- Top Projects -->
         <section class="section">
-            <h2 class="section-title" data-en="📦 All Projects" data-zh="📦 全部项目">📦 All Projects</h2>
-            <div class="filters">
-                <button class="filter-btn active" data-cat="all" data-en="All" data-zh="全部">All</button>
-                <button class="filter-btn" data-cat="full-stack-research" data-en="Full-Stack" data-zh="全链路">Full-Stack</button>
-                <button class="filter-btn" data-cat="deep-research" data-en="Deep Research" data-zh="深度研究">Deep Research</button>
-                <button class="filter-btn" data-cat="literature-research" data-en="Literature" data-zh="文献">Literature</button>
-                <button class="filter-btn" data-cat="openclaw" data-en="OpenClaw" data-zh="OpenClaw">OpenClaw</button>
-                <button class="filter-btn" data-cat="benchmark" data-en="Benchmark" data-zh="基准">Benchmark</button>
-                <button class="filter-btn" data-cat="tools" data-en="Tools" data-zh="工具">Tools</button>
+            <h2 class="section-title" data-en="🔥 Hot Projects" data-zh="🔥 热门项目">🔥 Hot Projects</h2>
+            <div class="projects-grid" id="topProjects"></div>
+        </section>
+
+        <!-- Categories -->
+        <section class="section">
+            <h2 class="section-title" data-en="📂 Categories" data-zh="📂 分类">📂 Categories</h2>
+            <div class="category-tabs" id="categoryTabs">
+                <button class="tab-btn active" data-cat="all" data-en="All" data-zh="全部">All</button>
+                <button class="tab-btn" data-cat="full-stack-research" data-en="Full-Stack" data-zh="全链路">Full-Stack</button>
+                <button class="tab-btn" data-cat="deep-research" data-en="Deep Research" data-zh="深度研究">Deep Research</button>
+                <button class="tab-btn" data-cat="literature-research" data-en="Literature" data-zh="文献">Literature</button>
+                <button class="tab-btn" data-cat="openclaw" data-en="OpenClaw" data-zh="OpenClaw">OpenClaw</button>
+                <button class="tab-btn" data-cat="benchmark" data-en="Benchmark" data-zh="基准">Benchmark</button>
             </div>
-            <div class="grid" id="allProjects"></div>
+            <div class="projects-list" id="allProjects"></div>
         </section>
 
+        <!-- Domain Cards -->
+        <section class="section">
+            <h2 class="section-title" data-en="🎓 Domains" data-zh="🎓 领域">🎓 Domains</h2>
+            <div class="domain-grid" id="domains"></div>
+        </section>
+
+        <!-- Featured Papers -->
         <section class="section">
             <h2 class="section-title" data-en="📄 Featured Papers" data-zh="📄 论文精选">📄 Featured Papers</h2>
-            <div class="papers" id="papers"></div>
+            <div class="papers-grid" id="papers"></div>
+        </section>
+
+        <!-- Industry News -->
+        <section class="section">
+            <h2 class="section-title" data-en="📰 Industry News" data-zh="📰 行业动态">📰 Industry News</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <h3 data-en="🔥 Top Systems" data-zh="🔥 顶级系统">🔥 Top Systems</h3>
+                    <div class="systems-list" id="topSystems"></div>
+                </div>
+                <div class="news-card">
+                    <h3 data-en="📅 Timeline" data-zh="📅 时间线">📅 Timeline</h3>
+                    <div class="events-list" id="eventsList"></div>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer class="footer">
-        <p data-en="Maintained by OpenClaw · Updated 2026-03-15" data-zh="由 OpenClaw 运维 · 更新于 2026-03-15">
-            Maintained by OpenClaw · Updated 2026-03-15
-        </p>
-        <p class="footer-links">
+        <p>Maintained by <strong>OpenClaw</strong> · Updated 2026-03-16</p>
+        <div class="footer-links">
             <a href="https://github.com/caimingshuo/AI-Research-Agent-Stack" target="_blank">GitHub</a>
-            <span>·</span>
             <a href="https://github.com/caimingshuo/AI-Research-Agent-Stack/blob/main/README.md">English</a>
-            <span>·</span>
             <a href="https://github.com/caimingshuo/AI-Research-Agent-Stack/blob/main/README_CN.md">中文</a>
-        </p>
+        </div>
     </footer>
 
     <script src="js/app.js"></script>
