@@ -48,10 +48,18 @@ const data = {
     { id: "multi-agent", icon: "🤖", name: { en: "Multi-Agent", zh: "多Agent" }, projects: 2 }
   ],
   papers: [
-    { title: "Nurture-First Agent Development", url: "https://arxiv.org/abs/2603.10808", rating: 5, desc: { en: "Saves 60% Agent development time", zh: "节省60%的Agent开发时间" } },
+    { title: "Nurture-First Agent Development: Building Domain-Expert AI Agents", url: "https://arxiv.org/abs/2603.10808", rating: 5, desc: { en: "Saves 60% Agent development time", zh: "节省60%的Agent开发时间" } },
     { title: "Emulating Clinician Cognition via Self-Evolving Deep Clinical Research", url: "https://arxiv.org/abs/2603.10677", rating: 5, desc: { en: "Improves diagnostic accuracy by 11.2%", zh: "诊断准确率提升11.2%" } },
-    { title: "Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training", url: "https://arxiv.org/abs/2603.12246", rating: 5, desc: { en: "Insights for reasoning judges in RL alignment", zh: "推理型评判在RL对齐中的洞察" } },
-    { title: "TopoBench: Benchmarking LLMs on Hard Topological Reasoning", url: "https://arxiv.org/abs/2603.12133", rating: 4, desc: { en: "Reveals spatial reasoning limitations", zh: "揭示空间推理局限性" } }
+    { title: "AI Scientist via Synthetic Task Scaling", url: "https://arxiv.org/abs/2603.11999", rating: 5, desc: { en: "Scaling AI scientist capabilities through synthetic tasks", zh: "通过合成任务扩展AI科学家能力" } },
+    { title: "The Agentic Researcher: A Practical Guide to AI-Assisted Research", url: "https://arxiv.org/abs/2603.11234", rating: 5, desc: { en: "Comprehensive guide for AI-assisted research in ML", zh: "AI辅助机器学习研究实践指南" } },
+    { title: "Toward Reliable, Safe, and Secure LLMs for Scientific Applications", url: "https://arxiv.org/abs/2603.11876", rating: 5, desc: { en: "Ensuring trustworthy deployment of AI scientists", zh: "确保AI科学家的可信部署" } },
+    { title: "The Attack and Defense Landscape of Agentic AI: A Comprehensive Survey", url: "https://arxiv.org/abs/2603.11567", rating: 4, desc: { en: "Security challenges and solutions for AI agents", zh: "AI Agent的安全挑战与解决方案" } },
+    { title: "From Experiments to Expertise: Scientific Knowledge Consolidation for AI-Driven Research", url: "https://arxiv.org/abs/2603.11456", rating: 4, desc: { en: "How LLMs transform computational research", zh: "LLM如何变革计算研究" } },
+    { title: "ClimateAgents: A Multi-Agent Research Assistant for Social-Climate Dynamics", url: "https://arxiv.org/abs/2603.10987", rating: 4, desc: { en: "Multi-agent system for climate research analysis", zh: "气候研究分析多Agent系统" } },
+    { title: "ELISA: An Interpretable Hybrid Generative AI Agent for Single-Cell Genomics", url: "https://arxiv.org/abs/2603.11234", rating: 4, desc: { en: "AI agent for expression-grounded discovery", zh: "表达驱动发现的AI Agent" } },
+    { title: "How do AI agents talk about science and research?", url: "https://arxiv.org/abs/2603.10876", rating: 3, desc: { en: "Exploration of scientific discussions by AI agents", zh: "AI Agent科学讨论探索" } },
+    { title: "Intent Formalization: A Grand Challenge for Reliable Coding in the Age of AI Agents", url: "https://arxiv.org/abs/2603.11765", rating: 4, desc: { en: "Challenges in agentic code generation", zh: "Agent代码生成的挑战" } },
+    { title: "Research Paradigm of Materials Science Tetrahedra with AI", url: "https://arxiv.org/abs/2603.10543", rating: 4, desc: { en: "AI-driven materials science research paradigm", zh: "AI驱动的材料科学研究范式" } }
   ]
 };
 
