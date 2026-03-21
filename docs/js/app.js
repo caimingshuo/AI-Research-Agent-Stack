@@ -9,13 +9,13 @@ const data = {
     { name: "zeroclaw", company: "zeroclaw-labs", status: "open", url: "https://github.com/zeroclaw-labs/zeroclaw", desc: { en: "Fast autonomous AI in Rust (27K stars)", zh: "Rust自主AI (2.7万星)" } }
   ],
   timeline: [
-    { date: "2026-03-21", event: { en: "autoresearch reaches 46K+ stars", zh: "autoresearch 突破4.6万星" }, source: "GitHub" },
+    { date: "2026-03-21", event: { en: "<a href='https://github.com/karpathy/autoresearch' target='_blank'>autoresearch</a> reaches 46K+ stars", zh: "<a href='https://github.com/karpathy/autoresearch' target='_blank'>autoresearch</a> 突破4.6万星" }, source: "GitHub" },
     { date: "2026-03-15", event: { en: "OpenClaw ecosystem explosion (100+ projects)", zh: "OpenClaw生态爆发 (100+项目)" }, source: "GitHub" },
-    { date: "2026-03-12", event: { en: "AI-Research-Agent-Stack launched", zh: "AI-Research-Agent-Stack 发布" }, source: "GitHub" },
-    { date: "2026-03-11", event: { en: "AI-Scientist-v2 released", zh: "AI-Scientist-v2 发布" }, source: "SakanaAI" },
-    { date: "2026-03-10", event: { en: "Google AI Co-Scientist announced", zh: "Google 发布 AI Co-Scientist" }, source: "DeepMind" },
+    { date: "2026-03-12", event: { en: "<a href='https://github.com/caimingshuo/AI-Research-Agent-Stack' target='_blank'>AI-Research-Agent-Stack</a> launched", zh: "<a href='https://github.com/caimingshuo/AI-Research-Agent-Stack' target='_blank'>AI-Research-Agent-Stack</a> 发布" }, source: "GitHub" },
+    { date: "2026-03-11", event: { en: "<a href='https://github.com/SakanaAI/AI-Scientist-v2' target='_blank'>AI-Scientist-v2</a> released", zh: "<a href='https://github.com/SakanaAI/AI-Scientist-v2' target='_blank'>AI-Scientist-v2</a> 发布" }, source: "SakanaAI" },
+    { date: "2026-03-10", event: { en: "Google <a href='https://deepmind.google' target='_blank'>AI Co-Scientist</a> announced", zh: "Google 发布 <a href='https://deepmind.google' target='_blank'>AI Co-Scientist</a>" }, source: "DeepMind" },
     { date: "2026-03-08", event: { en: "Karpathy autoresearch trending", zh: "Karpathy autoresearch 爆火" }, source: "Twitter/X" },
-    { date: "2026-02-15", event: { en: "FARS system demonstration", zh: "FARS 系统演示" }, source: "FutureHouse" }
+    { date: "2026-02-15", event: { en: "<a href='https://futurehouse.org' target='_blank'>FARS</a> system demonstration", zh: "<a href='https://futurehouse.org' target='_blank'>FARS</a> 系统演示" }, source: "FutureHouse" }
   ],
   projects: [
     { id: "autoresearch", name: "autoresearch", owner: "karpathy", url: "https://github.com/karpathy/autoresearch", stars: 46121, category: "full-stack-research", desc: { en: "Single-GPU auto-research agent by Karpathy", zh: "Karpathy新作，单GPU自动研究Agent" }, tags: ["AutoML", "SingleGPU"], updated: "2026-03-21", created: "2026-03-01" },

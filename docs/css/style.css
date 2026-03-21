@@ -1,11 +1,15 @@
 /* ========== Apple Liquid Glass Design System ========== */
 :root {
-    /* Glass Variables */
-    --glass-bg: rgba(255, 255, 255, 0.72);
-    --glass-bg-hover: rgba(255, 255, 255, 0.85);
-    --glass-border: rgba(255, 255, 255, 0.5);
-    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
-    --glass-shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.12), 0 8px 24px rgba(0, 0, 0, 0.06);
+    /* Glass Variables - More Transparent */
+    --glass-bg: rgba(255, 255, 255, 0.45);
+    --glass-bg-hover: rgba(255, 255, 255, 0.65);
+    --glass-bg-strong: rgba(255, 255, 255, 0.55);
+    --glass-border: rgba(255, 255, 255, 0.35);
+    --glass-border-subtle: rgba(255, 255, 255, 0.2);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.06), 0 1px 4px rgba(0, 0, 0, 0.02);
+    --glass-shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.08), 0 8px 24px rgba(0, 0, 0, 0.03);
+    --glass-blur: blur(40px) saturate(200%);
+    --glass-blur-light: blur(24px) saturate(180%);
     
     /* Colors */
     --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
@@ -27,7 +31,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', sans-serif;
-    background: linear-gradient(135deg, #e0e7ff 0%, #fce7f3 50%, #ddd6fe 100%);
+    background: linear-gradient(135deg, #dbeafe 0%, #fce7f3 35%, #e9d5ff 65%, #fef3c7 100%);
     min-height: 100vh;
     color: var(--text-primary);
     line-height: 1.5;
@@ -44,11 +48,13 @@ body::before {
     width: 200%;
     height: 200%;
     background: 
-        radial-gradient(circle at 20% 30%, rgba(99, 102, 241, 0.15) 0%, transparent 40%),
-        radial-gradient(circle at 80% 70%, rgba(139, 92, 246, 0.15) 0%, transparent 40%),
-        radial-gradient(circle at 50% 50%, rgba(236, 72, 153, 0.1) 0%, transparent 50%);
+        radial-gradient(circle at 15% 25%, rgba(99, 102, 241, 0.2) 0%, transparent 35%),
+        radial-gradient(circle at 85% 20%, rgba(139, 92, 246, 0.18) 0%, transparent 35%),
+        radial-gradient(circle at 70% 75%, rgba(236, 72, 153, 0.15) 0%, transparent 35%),
+        radial-gradient(circle at 25% 80%, rgba(59, 130, 246, 0.12) 0%, transparent 35%),
+        radial-gradient(circle at 50% 50%, rgba(168, 85, 247, 0.1) 0%, transparent 40%);
     z-index: -1;
-    animation: float 20s ease-in-out infinite;
+    animation: float 25s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -60,9 +66,9 @@ body::before {
 /* ========== Glass Card Base ========== */
 .glass-card {
     background: var(--glass-bg);
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    border: 1px solid var(--glass-border);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-border-subtle);
     border-radius: var(--radius-lg);
     box-shadow: var(--glass-shadow);
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -84,12 +90,12 @@ body::before {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 100px;
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
 }
 
 .nav-brand {
@@ -203,9 +209,10 @@ body::before {
 }
 
 .stat-card {
-    background: var(--glass-bg);
-    backdrop-filter: blur(20px) saturate(180%);
-    border: 1px solid var(--glass-border);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: var(--radius-xl);
     padding: 24px 40px;
     min-width: 140px;
@@ -296,14 +303,15 @@ body::before {
 
 .timeline-date {
     display: inline-block;
-    background: var(--glass-bg);
-    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: var(--glass-blur-light);
+    -webkit-backdrop-filter: var(--glass-blur-light);
     padding: 8px 16px;
     border-radius: 100px;
     font-size: 0.8125rem;
     font-weight: 600;
     color: var(--accent-primary);
-    border: 1px solid var(--glass-border);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: var(--glass-shadow);
 }
 
@@ -334,14 +342,33 @@ body::before {
 }
 
 .timeline-event-text {
-    background: var(--glass-bg);
-    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.42);
+    backdrop-filter: var(--glass-blur-light);
+    -webkit-backdrop-filter: var(--glass-blur-light);
     padding: 16px 20px;
     border-radius: var(--radius-md);
     font-size: 0.9375rem;
     color: var(--text-primary);
-    border: 1px solid var(--glass-border);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     box-shadow: var(--glass-shadow);
+    transition: all 0.3s ease;
+}
+
+.timeline-event-text:hover {
+    background: rgba(255, 255, 255, 0.55);
+    transform: translateX(4px);
+}
+
+.timeline-event-text a {
+    color: var(--accent-primary);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.timeline-event-text a:hover {
+    border-bottom-color: var(--accent-primary);
 }
 
 .timeline-source {
@@ -358,9 +385,10 @@ body::before {
 }
 
 .project-card {
-    background: var(--glass-bg);
-    backdrop-filter: blur(20px) saturate(180%);
-    border: 1px solid var(--glass-border);
+    background: rgba(255, 255, 255, 0.38);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: var(--radius-xl);
     padding: 24px;
     box-shadow: var(--glass-shadow);
@@ -463,9 +491,10 @@ body::before {
 }
 
 .tab-btn {
-    background: var(--glass-bg);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--glass-border);
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: var(--glass-blur-light);
+    -webkit-backdrop-filter: var(--glass-blur-light);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 100px;
     padding: 10px 20px;
     font-size: 0.9rem;
@@ -473,7 +502,7 @@ body::before {
     color: var(--text-secondary);
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
 }
 
 .tab-btn:hover {
@@ -497,9 +526,10 @@ body::before {
 }
 
 .paper-card {
-    background: var(--glass-bg);
-    backdrop-filter: blur(20px) saturate(180%);
-    border: 1px solid var(--glass-border);
+    background: rgba(255, 255, 255, 0.38);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: var(--radius-xl);
     padding: 28px;
     box-shadow: var(--glass-shadow);
@@ -565,9 +595,10 @@ body::before {
 }
 
 .domain-card {
-    background: var(--glass-bg);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--glass-border);
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: var(--glass-blur-light);
+    -webkit-backdrop-filter: var(--glass-blur-light);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: var(--radius-lg);
     padding: 28px 20px;
     text-align: center;
@@ -607,9 +638,10 @@ body::before {
 }
 
 .news-card {
-    background: var(--glass-bg);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--glass-border);
+    background: rgba(255, 255, 255, 0.38);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: var(--radius-xl);
     padding: 28px;
     box-shadow: var(--glass-shadow);
