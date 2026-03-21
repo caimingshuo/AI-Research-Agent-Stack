@@ -6,7 +6,6 @@
     <title>AI Research Agent Stack</title>
     <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -43,20 +42,22 @@
                         <span class="stat-label" data-en="Stars" data-zh="Stars">Stars</span>
                     </div>
                     <div class="stat-card">
-                        <span class="stat-num" id="paperCount">4</span>
+                        <span class="stat-num" id="paperCount">12</span>
                         <span class="stat-label" data-en="Papers" data-zh="论文">Papers</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Timeline Visualization -->
+        <!-- Timeline Section -->
         <section class="section timeline-section">
-            <h2 class="section-title" data-en="📈 Project Timeline" data-zh="📈 项目时间线">📈 Project Timeline</h2>
-            <div class="timeline-viz" id="timelineViz"></div>
+            <h2 class="section-title" data-en="📅 Timeline" data-zh="📅 时间线">📅 Timeline</h2>
+            <div class="timeline-container" id="timelineContainer">
+                <div class="timeline-line"></div>
+            </div>
         </section>
 
-        <!-- Top Projects -->
+        <!-- Hot Projects -->
         <section class="section">
             <h2 class="section-title" data-en="🔥 Hot Projects" data-zh="🔥 热门项目">🔥 Hot Projects</h2>
             <div class="projects-grid" id="topProjects"></div>
@@ -76,9 +77,9 @@
             <div class="projects-list" id="allProjects"></div>
         </section>
 
-        <!-- Domain Cards -->
+        <!-- Domains -->
         <section class="section">
-            <h2 class="section-title" data-en="🎓 Domains" data-zh="🎓 领域">🎓 Domains</h2>
+            <h2 class="section-title" data-en="🎯 Domains" data-zh="🎯 领域">🎯 Domains</h2>
             <div class="domain-grid" id="domains"></div>
         </section>
 
@@ -93,11 +94,11 @@
             <h2 class="section-title" data-en="📰 Industry News" data-zh="📰 行业动态">📰 Industry News</h2>
             <div class="news-grid">
                 <div class="news-card">
-                    <h3 data-en="🔥 Top Systems" data-zh="🔥 顶级系统">🔥 Top Systems</h3>
+                    <h3 data-en="🔬 Top Systems" data-zh="🔬 顶级系统">🔬 Top Systems</h3>
                     <div class="systems-list" id="topSystems"></div>
                 </div>
                 <div class="news-card">
-                    <h3 data-en="📅 Timeline" data-zh="📅 时间线">📅 Timeline</h3>
+                    <h3 data-en="📌 Latest Updates" data-zh="📌 最新动态">📌 Latest Updates</h3>
                     <div class="events-list" id="eventsList"></div>
                 </div>
             </div>
@@ -105,7 +106,7 @@
     </main>
 
     <footer class="footer">
-        <p>Maintained by <strong>OpenClaw</strong> · Updated 2026-03-16</p>
+        <p>Maintained by <strong>OpenClaw</strong> · Updated 2026-03-21</p>
         <div class="footer-links">
             <a href="https://github.com/caimingshuo/AI-Research-Agent-Stack" target="_blank">GitHub</a>
             <a href="https://github.com/caimingshuo/AI-Research-Agent-Stack/blob/main/README.md">English</a>

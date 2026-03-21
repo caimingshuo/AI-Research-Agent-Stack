@@ -69,7 +69,6 @@ let filter = 'all';
 document.addEventListener('DOMContentLoaded', () => {
   renderAll();
   initFilters();
-  initTimelineViz();
 });
 
 function toggleLang() {
@@ -82,47 +81,8 @@ function toggleLang() {
 }
 
 function formatStars(s) { return s >= 1000 ? (s/1000).toFixed(1) + 'K' : s; }
-function getCatIcon(c) {
-  const icons = { 'full-stack-research':'🔬', 'deep-research':'🔍', 'literature-research':'📚', 'openclaw':'🤖', 'benchmark':'📊', 'tools':'🛠️' };
-  return icons[c] || '📦';
-}
 
-function initTimelineViz() {
-  // Simple bar chart visualization
-  const monthlyData = {};
-  data.projects.forEach(p => {
-    const d = new Date(p.created || p.updated);
-    const k = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
-    monthlyData[k] = (monthlyData[k] || 0) + 1;
-  });
-  const months = Object.keys(monthlyData).sort();
-  const maxCount = Math.max(...Object.values(monthlyData));
-  
-  const container = document.getElementById('timelineViz');
-  if (!container) return;
-  
-  let cum = 0;
-  container.innerHTML = `
-    <div class="timeline-chart">
-      <div class="timeline-bars">
-        ${months.map(m => {
-          cum += monthlyData[m];
-          const height = Math.max(40, (cum / (cum)) * 140);
-          const [y, mo] = m.split('-');
-          return `
-            <div class="timeline-bar-wrapper">
-              <div class="timeline-bar" style="height: ${height}px;">
-                <span class="bar-count">${cum}</span>
-              </div>
-              <div class="timeline-bar-label">${lang === 'en' ? mo + '/' + y.slice(2) : mo + '月'}</div>
-            </div>
-          `;
-        }).join('')}
-      </div>
-      <div class="timeline-legend">${lang === 'en' ? 'Cumulative Projects Over Time' : '项目累计增长趋势'}</div>
-    </div>
-  `;
-}
+// ========== Render Functions ==========
 
 function renderAll() {
   // Update stats
@@ -131,104 +91,115 @@ function renderAll() {
   document.getElementById('starCount').textContent = Math.round(totalStars / 1000) + 'K+';
   document.getElementById('paperCount').textContent = data.papers.length;
 
-  // Systems
-  const systemsEl = document.getElementById('topSystems');
-  if (systemsEl) {
-    systemsEl.innerHTML = data.systems.map(s => `
-      <div class="system-item">
-        <div>
-          <a href="${s.url}" target="_blank" style="color:var(--text-primary);text-decoration:none;font-weight:500;">${s.name}</a>
-          <div style="font-size:0.75rem;color:var(--text-muted);">${s.desc[lang]}</div>
-        </div>
-        <div style="text-align:right;">
-          <div class="system-company">${s.company}</div>
-          <span class="status-badge ${s.status}">${s.status==='open'?(lang==='en'?'Open Source':'开源'):(lang==='en'?'Proprietary':'闭源')}</span>
-        </div>
-      </div>
-    `).join('');
-  }
-
-  // Timeline Events
-  const eventsEl = document.getElementById('eventsList');
-  if (eventsEl) {
-    eventsEl.innerHTML = data.timeline.map(t => `
-      <div class="event-item">
-        <div class="event-date">${t.date}</div>
-        <div class="event-text">${t.event[lang]}</div>
-      </div>
-    `).join('');
-  }
-
-  // Top Projects
-  const top = data.projects.slice(0, 6);
-  const topEl = document.getElementById('topProjects');
-  if (topEl) {
-    topEl.innerHTML = top.map((p, i) => `
-      <div class="project-card">
-        ${i < 3 ? `<div class="rank-badge" style="position:absolute;top:-8px;right:12px;background:linear-gradient(135deg,#fbbf24,#f59e0b);color:#78350f;font-weight:700;font-size:0.75rem;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;">${i+1}</div>` : ''}
-        <div class="project-header">
-          <div class="project-name"><a href="${p.url}" target="_blank">${p.owner}/${p.name}</a></div>
-          <span class="project-stars">⭐ ${formatStars(p.stars)}</span>
-        </div>
-        <p class="project-desc">${p.desc[lang]}</p>
-        <div class="project-footer" style="display:flex;justify-content:space-between;align-items:center;font-size:0.75rem;">
-          <span>${p.tags.map(t => `<span class="tag">${t}</span>`).join(' ')}</span>
-          <span style="color:var(--text-muted);">${p.updated}</span>
-        </div>
-      </div>
-    `).join('');
-  }
-
-  // Domains
-  const domainsEl = document.getElementById('domains');
-  if (domainsEl) {
-    domainsEl.innerHTML = data.domains.map(d => `
-      <div class="domain-card">
-        <div class="domain-icon">${d.icon}</div>
-        <div class="domain-name">${d.name[lang]}</div>
-        <div class="domain-count">${d.projects} ${lang === 'en' ? 'projects' : '个项目'}</div>
-      </div>
-    `).join('');
-  }
-
-  // All Projects
+  renderTimeline();
+  renderTopProjects();
+  renderDomains();
   renderProjects();
-
-  // Papers
-  const papersEl = document.getElementById('papers');
-  if (papersEl) {
-    papersEl.innerHTML = data.papers.map(p => `
-      <div class="paper-card">
-        <div class="paper-rating">${'⭐'.repeat(p.rating)}</div>
-        <div class="paper-title"><a href="${p.url}" target="_blank">${p.title}</a></div>
-        <div class="paper-meta">${p.desc[lang]}</div>
-      </div>
-    `).join('');
-  }
-
-  // Update footer date
-  const footer = document.querySelector('.footer p');
-  if (footer) {
-    footer.innerHTML = `Maintained by <strong>OpenClaw</strong> · Updated 2026-03-21`;
-  }
+  renderPapers();
+  renderSystems();
+  renderEvents();
 }
 
-function renderProjects() {
-  const filtered = filter === 'all' ? data.projects : data.projects.filter(p => p.category === filter);
-  const container = document.getElementById('allProjects');
-  if (!container) return;
-  
-  container.innerHTML = filtered.map(p => `
+function renderTimeline() {
+  const container = document.getElementById('timelineContainer');
+  const timelineHTML = `
+    <div class="timeline-line"></div>
+    ${data.timeline.slice(0, 5).map((t, i) => `
+      <div class="timeline-item" style="animation-delay: ${i * 0.1}s">
+        <div class="timeline-date-badge">
+          <span class="timeline-date">${t.date}</span>
+        </div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-event-badge">
+          <div class="timeline-event-text">${t.event[lang]}</div>
+          <div class="timeline-source">${t.source}</div>
+        </div>
+      </div>
+    `).join('')}
+  `;
+  container.innerHTML = timelineHTML;
+}
+
+function renderTopProjects() {
+  const top = data.projects.sort((a, b) => b.stars - a.stars).slice(0, 6);
+  const container = document.getElementById('topProjects');
+  container.innerHTML = top.map((p, i) => `
     <div class="project-card">
       <div class="project-header">
         <div class="project-name"><a href="${p.url}" target="_blank">${p.owner}/${p.name}</a></div>
         <span class="project-stars">⭐ ${formatStars(p.stars)}</span>
       </div>
       <p class="project-desc">${p.desc[lang]}</p>
-      <div class="project-footer" style="display:flex;justify-content:space-between;align-items:center;font-size:0.75rem;">
-        <span>${p.tags.map(t => `<span class="tag">${t}</span>`).join(' ')}</span>
-        <span style="color:var(--text-muted);">${p.updated}</span>
+      <div class="project-footer">
+        <span>${p.tags.map(t => `<span class="tag">${t}</span>`).join('')}</span>
+        <span class="project-updated">${p.updated}</span>
       </div>
+    </div>
+  `).join('');
+}
+
+function renderProjects() {
+  const filtered = filter === 'all' ? data.projects : data.projects.filter(p => p.category === filter);
+  const container = document.getElementById('allProjects');
+  container.innerHTML = `<div class="projects-grid">${filtered.map(p => `
+    <div class="project-card">
+      <div class="project-header">
+        <div class="project-name"><a href="${p.url}" target="_blank">${p.owner}/${p.name}</a></div>
+        <span class="project-stars">⭐ ${formatStars(p.stars)}</span>
+      </div>
+      <p class="project-desc">${p.desc[lang]}</p>
+      <div class="project-footer">
+        <span>${p.tags.map(t => `<span class="tag">${t}</span>`).join('')}</span>
+        <span class="project-updated">${p.updated}</span>
+      </div>
+    </div>
+  `).join('')}</div>`;
+}
+
+function renderDomains() {
+  const container = document.getElementById('domains');
+  container.innerHTML = data.domains.map(d => `
+    <div class="domain-card">
+      <span class="domain-icon">${d.icon}</span>
+      <div class="domain-name">${d.name[lang]}</div>
+      <div class="domain-count">${d.projects} ${lang === 'en' ? 'projects' : '个项目'}</div>
+    </div>
+  `).join('');
+}
+
+function renderPapers() {
+  const container = document.getElementById('papers');
+  container.innerHTML = data.papers.map(p => `
+    <div class="paper-card">
+      <div class="paper-rating">${'⭐'.repeat(p.rating)}</div>
+      <div class="paper-title"><a href="${p.url}" target="_blank">${p.title}</a></div>
+      <div class="paper-meta">${p.desc[lang]}</div>
+    </div>
+  `).join('');
+}
+
+function renderSystems() {
+  const container = document.getElementById('topSystems');
+  container.innerHTML = data.systems.map(s => `
+    <div class="system-item">
+      <div>
+        <a href="${s.url}" target="_blank" style="color:var(--text-primary);text-decoration:none;font-weight:500;">${s.name}</a>
+        <div class="system-company">${s.desc[lang]}</div>
+      </div>
+      <div style="text-align:right;">
+        <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:4px;">${s.company}</div>
+        <span class="status-badge ${s.status}">${s.status==='open'?(lang==='en'?'Open Source':'开源'):(lang==='en'?'Proprietary':'闭源')}</span>
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderEvents() {
+  const container = document.getElementById('eventsList');
+  container.innerHTML = data.timeline.slice(0, 6).map(t => `
+    <div class="event-item">
+      <span class="event-date">${t.date}</span>
+      <span class="event-text">${t.event[lang]}</span>
     </div>
   `).join('');
 }
