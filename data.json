@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "2.2.0",
-    "lastUpdated": "2026-03-22T19:35:00+08:00",
+    "lastUpdated": "2026-03-23T09:00:00+08:00",
     "slogan": {
       "en": "Looking Forward to the True Realization of AI Research Automation",
       "zh": "期待 AI 科研自动化的真正实现"
@@ -70,6 +70,14 @@
       }
     ],
     "timeline": [
+      {
+        "date": "2026-03-23",
+        "event": {
+          "en": "autoresearch hits 50K stars; EvoScientist grows 58 stars to 1.5K",
+          "zh": "autoresearch突破50K星标; EvoScientist增长58星至1.5K"
+        },
+        "source": "GitHub"
+      },
       {
         "date": "2026-03-22",
         "event": {
@@ -153,8 +161,8 @@
       "name": "autoresearch",
       "owner": "karpathy",
       "url": "https://github.com/karpathy/autoresearch",
-      "stars": 49043,
-      "change": "+2.9K",
+      "stars": 50007,
+      "change": "+964",
       "description": {
         "en": "Single-GPU auto-research agent by Karpathy",
         "zh": "Karpathy新作，单GPU自动研究Agent"
@@ -171,8 +179,8 @@
       "name": "nanobot",
       "owner": "HKUDS",
       "url": "https://github.com/HKUDS/nanobot",
-      "stars": 35407,
-      "change": "+1.8K",
+      "stars": 35491,
+      "change": "+84",
       "description": {
         "en": "Ultra-lightweight OpenClaw implementation",
         "zh": "超轻量级OpenClaw实现"
@@ -189,8 +197,8 @@
       "name": "zeroclaw",
       "owner": "zeroclaw-labs",
       "url": "https://github.com/zeroclaw-labs/zeroclaw",
-      "stars": 28331,
-      "change": "+1.2K",
+      "stars": 28409,
+      "change": "+78",
       "description": {
         "en": "Fast autonomous AI assistant in Rust",
         "zh": "Rust实现的高速自主AI助手"
@@ -209,7 +217,7 @@
       "name": "autoresearch",
       "owner": "karpathy",
       "url": "https://github.com/karpathy/autoresearch",
-      "stars": 49043,
+      "stars": 50007,
       "category": "full-stack-research",
       "description": {
         "en": "AI agents running research on single-GPU nanochat training automatically",
@@ -220,7 +228,7 @@
         "SingleGPU"
       ],
       "domain": "computer-science",
-      "updated": "2026-03-22",
+      "updated": "2026-03-23",
       "created": "2026-03-01"
     },
     {
@@ -228,7 +236,7 @@
       "name": "nanobot",
       "owner": "HKUDS",
       "url": "https://github.com/HKUDS/nanobot",
-      "stars": 35407,
+      "stars": 35491,
       "category": "openclaw-ecosystem",
       "description": {
         "en": "Ultra-lightweight OpenClaw implementation",
@@ -239,14 +247,14 @@
         "OpenClaw"
       ],
       "domain": "infrastructure",
-      "updated": "2026-03-22"
+      "updated": "2026-03-23"
     },
     {
       "id": "zeroclaw-labs-zeroclaw",
       "name": "zeroclaw",
       "owner": "zeroclaw-labs",
       "url": "https://github.com/zeroclaw-labs/zeroclaw",
-      "stars": 28331,
+      "stars": 28409,
       "category": "openclaw-ecosystem",
       "description": {
         "en": "Fast autonomous AI assistant in Rust",
@@ -257,14 +265,14 @@
         "Autonomous"
       ],
       "domain": "infrastructure",
-      "updated": "2026-03-22"
+      "updated": "2026-03-23"
     },
     {
       "id": "hesamsheikh-awesome-openclaw-usecases",
       "name": "awesome-openclaw-usecases",
       "owner": "hesamsheikh",
       "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases",
-      "stars": 26693,
+      "stars": 26789,
       "category": "openclaw-ecosystem",
       "description": {
         "en": "Community collection of OpenClaw use cases",
@@ -275,32 +283,14 @@
         "UseCases"
       ],
       "domain": "infrastructure",
-      "updated": "2026-03-22"
-    },
-    {
-      "id": "sakanaai-ai-scientist",
-      "name": "AI-Scientist",
-      "owner": "SakanaAI",
-      "url": "https://github.com/SakanaAI/AI-Scientist",
-      "stars": 12483,
-      "category": "full-stack-research",
-      "description": {
-        "en": "Towards Fully Automated Open-Ended Scientific Discovery",
-        "zh": "迈向全自动化开放式科学发现"
-      },
-      "tags": [
-        "Multi-Agent",
-        "End-to-End"
-      ],
-      "domain": "general-science",
-      "updated": "2026-03-22"
+      "updated": "2026-03-23"
     },
     {
       "id": "rightnow-ai-openfang",
       "name": "openfang",
       "owner": "RightNow-AI",
       "url": "https://github.com/RightNow-AI/openfang",
-      "stars": 15217,
+      "stars": 15265,
       "category": "openclaw-ecosystem",
       "description": {
         "en": "Open-source Agent Operating System",
@@ -311,14 +301,32 @@
         "Agent"
       ],
       "domain": "infrastructure",
-      "updated": "2026-03-22"
+      "updated": "2026-03-23"
+    },
+    {
+      "id": "sakanaai-ai-scientist",
+      "name": "AI-Scientist",
+      "owner": "SakanaAI",
+      "url": "https://github.com/SakanaAI/AI-Scientist",
+      "stars": 12488,
+      "category": "full-stack-research",
+      "description": {
+        "en": "Towards Fully Automated Open-Ended Scientific Discovery",
+        "zh": "迈向全自动化开放式科学发现"
+      },
+      "tags": [
+        "Multi-Agent",
+        "End-to-End"
+      ],
+      "domain": "general-science",
+      "updated": "2026-03-23"
     },
     {
       "id": "cft0808-edict",
       "name": "edict",
       "owner": "cft0808",
       "url": "https://github.com/cft0808/edict",
-      "stars": 11961,
+      "stars": 12033,
       "category": "openclaw-ecosystem",
       "description": {
         "en": "Multi-Agent Orchestration",
@@ -329,14 +337,14 @@
         "Chinese"
       ],
       "domain": "infrastructure",
-      "updated": "2026-03-22"
+      "updated": "2026-03-23"
     },
     {
       "id": "nearai-ironclaw",
       "name": "ironclaw",
       "owner": "nearai",
       "url": "https://github.com/nearai/ironclaw",
-      "stars": 10658,
+      "stars": 10690,
       "category": "openclaw-ecosystem",
       "description": {
         "en": "OpenClaw in Rust for privacy & security",
@@ -347,14 +355,14 @@
         "Privacy"
       ],
       "domain": "infrastructure",
-      "updated": "2026-03-22"
+      "updated": "2026-03-23"
     },
     {
       "id": "aiming-lab-autoresearchclaw",
       "name": "AutoResearchClaw",
       "owner": "aiming-lab",
       "url": "https://github.com/aiming-lab/AutoResearchClaw",
-      "stars": 7506,
+      "stars": 7650,
       "category": "full-stack-research",
       "description": {
         "en": "Fully autonomous research from idea to paper",
@@ -365,15 +373,15 @@
         "OpenClaw"
       ],
       "domain": "general-science",
-      "updated": "2026-03-22",
-      "highlight": "🚀 从92暴涨至7506!"
+      "updated": "2026-03-23",
+      "highlight": "🚀 从92暴涨至7.6K!"
     },
     {
       "id": "orchestra-research-ai-research-skills",
       "name": "AI-Research-SKILLs",
       "owner": "Orchestra-Research",
       "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
-      "stars": 5391,
+      "stars": 5412,
       "category": "tools",
       "description": {
         "en": "Comprehensive open-source library of AI research skills",
@@ -384,7 +392,7 @@
         "Library"
       ],
       "domain": "tools",
-      "updated": "2026-03-22",
+      "updated": "2026-03-23",
       "highlight": "🆕 新收录"
     },
     {
@@ -392,7 +400,7 @@
       "name": "PaperBanana",
       "owner": "dwzhu-pku",
       "url": "https://github.com/dwzhu-pku/PaperBanana",
-      "stars": 5329,
+      "stars": 5340,
       "category": "literature-research",
       "description": {
         "en": "Automating Academic Illustration For AI Scientists",
@@ -403,14 +411,14 @@
         "Academic"
       ],
       "domain": "literature-review",
-      "updated": "2026-03-22"
+      "updated": "2026-03-23"
     },
     {
       "id": "mvanhorn-last30days-skill",
       "name": "last30days-skill",
       "owner": "mvanhorn",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "stars": 4461,
+      "stars": 4484,
       "category": "literature-research",
       "description": {
         "en": "Cross-platform research aggregation across Reddit, X, YouTube, HN",
@@ -421,14 +429,14 @@
         "RAG"
       ],
       "domain": "literature-review",
-      "updated": "2026-03-22"
+      "updated": "2026-03-23"
     },
     {
       "id": "evoscientist-evoscientist",
       "name": "EvoScientist",
       "owner": "EvoScientist",
       "url": "https://github.com/EvoScientist/EvoScientist",
-      "stars": 1442,
+      "stars": 1500,
       "category": "full-stack-research",
       "description": {
         "en": "Self-evolving AI Scientists",
@@ -439,8 +447,26 @@
         "Research"
       ],
       "domain": "general-science",
-      "updated": "2026-03-22",
+      "updated": "2026-03-23",
       "highlight": "🆕 新收录"
+    },
+    {
+      "id": "sakanaai-ai-scientist-v2",
+      "name": "AI-Scientist-v2",
+      "owner": "SakanaAI",
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "stars": 2311,
+      "category": "full-stack-research",
+      "description": {
+        "en": "Workshop-level automated scientific discovery via Agentic Tree Search",
+        "zh": "Workshop级别自动化科学发现"
+      },
+      "tags": [
+        "Multi-Agent",
+        "End-to-End"
+      ],
+      "domain": "general-science",
+      "updated": "2026-03-23"
     },
     {
       "id": "mims-harvard-tooluniverse",
@@ -458,26 +484,8 @@
         "Democratization"
       ],
       "domain": "tools",
-      "updated": "2026-03-22",
+      "updated": "2026-03-23",
       "highlight": "🆕 新收录"
-    },
-    {
-      "id": "sakanaai-ai-scientist-v2",
-      "name": "AI-Scientist-v2",
-      "owner": "SakanaAI",
-      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
-      "stars": 2309,
-      "category": "full-stack-research",
-      "description": {
-        "en": "Workshop-level automated scientific discovery via Agentic Tree Search",
-        "zh": "Workshop级别自动化科学发现"
-      },
-      "tags": [
-        "Multi-Agent",
-        "End-to-End"
-      ],
-      "domain": "general-science",
-      "updated": "2026-03-22"
     },
     {
       "id": "facebookresearch-mlgym",
@@ -496,26 +504,8 @@
         "Framework"
       ],
       "domain": "general-science",
-      "updated": "2026-03-22",
+      "updated": "2026-03-23",
       "highlight": "🆕 新收录"
-    },
-    {
-      "id": "tiger-ai-lab-openresearcher",
-      "name": "OpenResearcher",
-      "owner": "TIGER-AI-Lab",
-      "url": "https://github.com/TIGER-AI-Lab/OpenResearcher",
-      "stars": 435,
-      "category": "deep-research",
-      "description": {
-        "en": "Deep research trajectory synthesis",
-        "zh": "深度研究轨迹合成"
-      },
-      "tags": [
-        "DeepResearch",
-        "OpenSource"
-      ],
-      "domain": "literature-review",
-      "updated": "2026-03-22"
     },
     {
       "id": "juliye2025-evil-read-arxiv",
@@ -533,7 +523,25 @@
         "PaperReading"
       ],
       "domain": "literature-review",
-      "updated": "2026-03-22"
+      "updated": "2026-03-23"
+    },
+    {
+      "id": "tiger-ai-lab-openresearcher",
+      "name": "OpenResearcher",
+      "owner": "TIGER-AI-Lab",
+      "url": "https://github.com/TIGER-AI-Lab/OpenResearcher",
+      "stars": 435,
+      "category": "deep-research",
+      "description": {
+        "en": "Deep research trajectory synthesis",
+        "zh": "深度研究轨迹合成"
+      },
+      "tags": [
+        "DeepResearch",
+        "OpenSource"
+      ],
+      "domain": "literature-review",
+      "updated": "2026-03-23"
     },
     {
       "id": "internscience-scievalkit",
@@ -551,7 +559,7 @@
         "Leaderboard"
       ],
       "domain": "general-science",
-      "updated": "2026-03-22"
+      "updated": "2026-03-23"
     },
     {
       "id": "facebookresearch-airs-bench",
@@ -569,61 +577,7 @@
         "Benchmark"
       ],
       "domain": "general-science",
-      "updated": "2026-03-22"
-    },
-    {
-      "id": "jkudish-librarium",
-      "name": "librarium",
-      "owner": "jkudish",
-      "url": "https://github.com/jkudish/librarium",
-      "stars": 114,
-      "category": "deep-research",
-      "description": {
-        "en": "Multi-provider deep research CLI",
-        "zh": "多提供商深度研究CLI"
-      },
-      "tags": [
-        "CLI",
-        "MultiProvider"
-      ],
-      "domain": "literature-review",
-      "updated": "2026-03-22"
-    },
-    {
-      "id": "zimoliao-scholaraio",
-      "name": "scholaraio",
-      "owner": "ZimoLiao",
-      "url": "https://github.com/ZimoLiao/scholaraio",
-      "stars": 199,
-      "category": "literature-research",
-      "description": {
-        "en": "AI agent-powered academic research terminal",
-        "zh": "AI驱动的学术研究终端"
-      },
-      "tags": [
-        "Terminal",
-        "Research"
-      ],
-      "domain": "literature-review",
-      "updated": "2026-03-22"
-    },
-    {
-      "id": "ymx10086-researchclaw",
-      "name": "ResearchClaw",
-      "owner": "ymx10086",
-      "url": "https://github.com/ymx10086/ResearchClaw",
-      "stars": 196,
-      "category": "literature-research",
-      "description": {
-        "en": "Personal AI research assistant built on OpenClaw",
-        "zh": "基于OpenClaw的个人研究助手"
-      },
-      "tags": [
-        "OpenClaw",
-        "Assistant"
-      ],
-      "domain": "literature-review",
-      "updated": "2026-03-22"
+      "updated": "2026-03-23"
     },
     {
       "id": "hkuds-deepinnovator",
@@ -641,7 +595,80 @@
         "IdeaGeneration"
       ],
       "domain": "general-science",
-      "updated": "2026-03-22"
+      "updated": "2026-03-23"
+    },
+    {
+      "id": "spectrai-initiative-innoclaw",
+      "name": "InnoClaw",
+      "owner": "SpectrAI-Initiative",
+      "url": "https://github.com/SpectrAI-Initiative/InnoClaw",
+      "stars": 194,
+      "category": "deep-research",
+      "description": {
+        "en": "An AI research Agent for scientific innovation",
+        "zh": "AI科研Agent助力科学创新"
+      },
+      "tags": [
+        "Innovation",
+        "OpenClaw"
+      ],
+      "domain": "general-science",
+      "updated": "2026-03-23",
+      "highlight": "🆕 新收录"
+    },
+    {
+      "id": "ymx10086-researchclaw",
+      "name": "ResearchClaw",
+      "owner": "ymx10086",
+      "url": "https://github.com/ymx10086/ResearchClaw",
+      "stars": 196,
+      "category": "literature-research",
+      "description": {
+        "en": "Personal AI research assistant built on OpenClaw",
+        "zh": "基于OpenClaw的个人研究助手"
+      },
+      "tags": [
+        "OpenClaw",
+        "Assistant"
+      ],
+      "domain": "literature-review",
+      "updated": "2026-03-23"
+    },
+    {
+      "id": "zimoliao-scholaraio",
+      "name": "scholaraio",
+      "owner": "ZimoLiao",
+      "url": "https://github.com/ZimoLiao/scholaraio",
+      "stars": 199,
+      "category": "literature-research",
+      "description": {
+        "en": "AI agent-powered academic research terminal",
+        "zh": "AI驱动的学术研究终端"
+      },
+      "tags": [
+        "Terminal",
+        "Research"
+      ],
+      "domain": "literature-review",
+      "updated": "2026-03-23"
+    },
+    {
+      "id": "jkudish-librarium",
+      "name": "librarium",
+      "owner": "jkudish",
+      "url": "https://github.com/jkudish/librarium",
+      "stars": 114,
+      "category": "deep-research",
+      "description": {
+        "en": "Multi-provider deep research CLI",
+        "zh": "多提供商深度研究CLI"
+      },
+      "tags": [
+        "CLI",
+        "MultiProvider"
+      ],
+      "domain": "literature-review",
+      "updated": "2026-03-23"
     }
   ],
   "autoresearch-ecosystem": [
@@ -650,7 +677,7 @@
       "name": "pi-autoresearch",
       "owner": "davebcn87",
       "url": "https://github.com/davebcn87/pi-autoresearch",
-      "stars": 2684,
+      "stars": 2736,
       "description": {
         "en": "Autonomous experiment loop extension for pi",
         "zh": "pi的自主实验循环扩展"
@@ -661,7 +688,7 @@
       "name": "autoresearch",
       "owner": "uditgoenka",
       "url": "https://github.com/uditgoenka/autoresearch",
-      "stars": 1691,
+      "stars": 1734,
       "description": {
         "en": "Claude Autoresearch Skill — Autonomous goal-directed iteration",
         "zh": "Claude自动研究技能 - 自主目标迭代"
@@ -672,7 +699,7 @@
       "name": "agi",
       "owner": "hyperspaceai",
       "url": "https://github.com/hyperspaceai/agi",
-      "stars": 1169,
+      "stars": 1174,
       "description": {
         "en": "Distributed AGI system with autonomous AI agents",
         "zh": "分布式AGI系统，自主AI Agent协作"
@@ -683,7 +710,7 @@
       "name": "autoresearch-mlx",
       "owner": "trevin-creator",
       "url": "https://github.com/trevin-creator/autoresearch-mlx",
-      "stars": 948,
+      "stars": 961,
       "description": {
         "en": "Apple Silicon (MLX) port of Karpathy's autoresearch",
         "zh": "Karpathy autoresearch的Apple Silicon移植版"
@@ -694,7 +721,7 @@
       "name": "autokernel",
       "owner": "RightNow-AI",
       "url": "https://github.com/RightNow-AI/autokernel",
-      "stars": 752,
+      "stars": 760,
       "description": {
         "en": "Autoresearch for GPU kernels optimization",
         "zh": "GPU内核优化的自动研究"
@@ -774,7 +801,8 @@
         "AI-Scientist",
         "AI-Scientist-v2",
         "AutoResearchClaw",
-        "EvoScientist"
+        "EvoScientist",
+        "InnoClaw"
       ],
       "description": {
         "en": "Hypothesis generation, experiment design",
@@ -829,10 +857,10 @@
     }
   ],
   "statistics": {
-    "totalProjects": 28,
-    "totalStars": 207000,
+    "totalProjects": 29,
+    "totalStars": 211000,
     "openclawProjects": 6,
-    "autoresearchEcosystem": 6,
-    "lastUpdated": "2026-03-22"
+    "autoresearchEcosystem": 5,
+    "lastUpdated": "2026-03-23"
   }
 }

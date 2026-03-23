@@ -12,22 +12,22 @@
 
 ---
 
-[![最后更新](https://img.shields.io/badge/更新-2026--03--22-brightgreen)](./trends)
-[![项目数](https://img.shields.io/badge/项目-28+-blue)](#-项目索引)
+[![最后更新](https://img.shields.io/badge/更新-2026--03--23-brightgreen)](./trends)
+[![项目数](https://img.shields.io/badge/项目-29+-blue)](#-项目索引)
 [![论文数](https://img.shields.io/badge/论文-12-orange)](#-论文精选)
-[![总Stars](https://img.shields.io/badge/Stars-207K+-yellow)](#-统计数据)
+[![总Stars](https://img.shields.io/badge/Stars-211K+-yellow)](#-统计数据)
 
 ---
 
 ## 🚀 最新动态
 
-> **2026-03-22**: autoresearch 生态大爆发！🔥
+> **2026-03-23**: autoresearch 突破 50K！🎉
 > 
-> - **AutoResearchClaw** 从 92 暴涨至 **7,506** ⭐ (+80倍!)
-> - **AI-Research-SKILLs** 新收录 **5,391** ⭐
-> - **EvoScientist** 新收录 **1,442** ⭐
-> - Meta 发布 **MLGym** 框架 **591** ⭐
-> - 总 Stars 达到 **207K+** (从 175K 增长)
+> - **autoresearch** 突破 **50,007** ⭐ 里程碑 (+964)
+> - **EvoScientist** 增长至 **1,500** ⭐ (+58)
+> - **InnoClaw** 新收录 **194** ⭐ - AI科研创新Agent
+> - **AutoResearchClaw** 继续攀升至 **7,650** ⭐ (+144)
+> - 总 Stars 达到 **211K+**
 
 ---
 
@@ -47,15 +47,15 @@
 
 | 排名 | 项目 | Stars | 变化 | 简介 |
 |:----:|------|:-----:|:----:|------|
-| 🥇 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 49.0K | +2.9K | Karpathy新作，单GPU自动研究Agent |
-| 🥈 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | ⭐ 35.4K | +1.8K | 超轻量级 OpenClaw 实现 |
-| 🥉 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | ⭐ 28.3K | +1.2K | Rust 实现的快速自主AI助手 |
-| 4 | [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | ⭐ 26.7K | +1.8K | OpenClaw 用例社区合集 |
-| 5 | [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) | ⭐ 15.2K | +0.7K | 开源 Agent 操作系统 |
-| 6 | [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | ⭐ 12.5K | 🆕 | 全自动化开放式科学发现 |
-| 7 | [cft0808/edict](https://github.com/cft0808/edict) | ⭐ 12.0K | +2.6K | 多Agent编排系统 |
-| 8 | [nearai/ironclaw](https://github.com/nearai/ironclaw) | ⭐ 10.7K | +0.5K | Rust 隐私安全版 OpenClaw |
-| 9 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | ⭐ 7.5K | 🚀+7.4K | **从想法到论文全自动** |
+| 🥇 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 50.0K | +964 | Karpathy新作，单GPU自动研究Agent |
+| 🥈 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | ⭐ 35.5K | +84 | 超轻量级 OpenClaw 实现 |
+| 🥉 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | ⭐ 28.4K | +78 | Rust 实现的快速自主AI助手 |
+| 4 | [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | ⭐ 26.8K | +96 | OpenClaw 用例社区合集 |
+| 5 | [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) | ⭐ 15.3K | +48 | 开源 Agent 操作系统 |
+| 6 | [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | ⭐ 12.5K | +5 | 全自动化开放式科学发现 |
+| 7 | [cft0808/edict](https://github.com/cft0808/edict) | ⭐ 12.0K | +72 | 多Agent编排系统 |
+| 8 | [nearai/ironclaw](https://github.com/nearai/ironclaw) | ⭐ 10.7K | +32 | Rust 隐私安全版 OpenClaw |
+| 9 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | ⭐ 7.7K | 🚀+144 | **从想法到论文全自动** |
 
 ---
 
@@ -65,11 +65,12 @@
 
 | 项目 | Stars | 简介 | 标签 |
 |------|:-----:|------|------|
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 49.0K | 单GPU自动研究Agent | `#AutoML` `#单GPU` |
-| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | ⭐ 7.5K | 从想法到论文全自动 | `#自动研究` `#OpenClaw` 🚀 |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 50.0K | 单GPU自动研究Agent | `#AutoML` `#单GPU` |
+| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | ⭐ 7.7K | 从想法到论文全自动 | `#自动研究` `#OpenClaw` 🚀 |
 | [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | ⭐ 12.5K | 全自动化科学发现 | `#多Agent` `#端到端` |
 | [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | ⭐ 2.3K | Workshop级别自动化发现 | `#多Agent` `#树搜索` |
-| [EvoScientist/EvoScientist](https://github.com/EvoScientist/EvoScientist) | ⭐ 1.4K | 自进化AI科学家 | `#自进化` `#研究` 🆕 |
+| [EvoScientist/EvoScientist](https://github.com/EvoScientist/EvoScientist) | ⭐ 1.5K | 自进化AI科学家 | `#自进化` `#研究` 🆕 |
+| [SpectrAI-Initiative/InnoClaw](https://github.com/SpectrAI-Initiative/InnoClaw) | ⭐ 194 | AI科研创新Agent | `#创新` `#OpenClaw` 🆕 |
 | [TIGER-AI-Lab/OpenResearcher](https://github.com/TIGER-AI-Lab/OpenResearcher) | ⭐ 435 | 深度研究轨迹合成 | `#深度研究` `#开源` |
 
 ### 🔍 深度研究 Agent
@@ -78,7 +79,6 @@
 |------|:-----:|------|------|
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | ⭐ 4.5K | 跨平台研究聚合工具 | `#RAG` `#多源` |
 | [jkudish/librarium](https://github.com/jkudish/librarium) | ⭐ 114 | 多提供商深度研究CLI | `#CLI` `#多提供商` |
-| [DesignOps6ix9/OpenDeepResearch](https://github.com/DesignOps6ix9/OpenDeepResearch) | ⭐ 69 | 可交互深度研究Agent | `#交互式` `#中文` |
 
 ### 📚 文献研究
 
@@ -93,10 +93,10 @@
 
 | 项目 | Stars | 简介 | 标签 |
 |------|:-----:|------|------|
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | ⭐ 35.4K | 超轻量 OpenClaw | `#轻量` `#OpenClaw` |
-| [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | ⭐ 28.3K | Rust 快速自主AI | `#Rust` `#自主` |
-| [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | ⭐ 26.7K | 社区用例合集 | `#社区` `#用例` |
-| [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) | ⭐ 15.2K | 开源 Agent OS | `#OS` `#Agent` |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | ⭐ 35.5K | 超轻量 OpenClaw | `#轻量` `#OpenClaw` |
+| [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | ⭐ 28.4K | Rust 快速自主AI | `#Rust` `#自主` |
+| [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | ⭐ 26.8K | 社区用例合集 | `#社区` `#用例` |
+| [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) | ⭐ 15.3K | 开源 Agent OS | `#OS` `#Agent` |
 | [nearai/ironclaw](https://github.com/nearai/ironclaw) | ⭐ 10.7K | Rust隐私安全版 | `#Rust` `#隐私` |
 | [cft0808/edict](https://github.com/cft0808/edict) | ⭐ 12.0K | 多Agent编排系统 | `#多Agent` `#中文` |
 
@@ -127,8 +127,8 @@
 | [davebcn87/pi-autoresearch](https://github.com/davebcn87/pi-autoresearch) | ⭐ 2.7K | pi的自主实验循环扩展 |
 | [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) | ⭐ 1.7K | Claude 自动研究技能 |
 | [hyperspaceai/agi](https://github.com/hyperspaceai/agi) | ⭐ 1.2K | 分布式AGI系统，自主Agent协作 |
-| [trevin-creator/autoresearch-mlx](https://github.com/trevin-creator/autoresearch-mlx) | ⭐ 948 | Apple Silicon (MLX) 移植版 |
-| [RightNow-AI/autokernel](https://github.com/RightNow-AI/autokernel) | ⭐ 752 | GPU内核自动优化 |
+| [trevin-creator/autoresearch-mlx](https://github.com/trevin-creator/autoresearch-mlx) | ⭐ 961 | Apple Silicon (MLX) 移植版 |
+| [RightNow-AI/autokernel](https://github.com/RightNow-AI/autokernel) | ⭐ 760 | GPU内核自动优化 |
 
 ---
 
@@ -162,7 +162,7 @@
 
 | 领域 | 图标 | 项目数 | 代表工具 |
 |------|:----:|:------:|----------|
-| 通用科研 | 🔬 | 8 | AI-Scientist, AutoResearchClaw, EvoScientist |
+| 通用科研 | 🔬 | 9 | AI-Scientist, AutoResearchClaw, EvoScientist, InnoClaw |
 | 计算机科学 | 💻 | 2 | autoresearch |
 | 文献综述 | 📚 | 6 | PaperBanana, last30days-skill, OpenResearcher |
 | 基础设施 | 🏗️ | 6 | nanobot, zeroclaw, openfang, ironclaw |
@@ -179,7 +179,7 @@
 | **AI Co-Scientist** | Google DeepMind | 🔒 | 多Agent假设生成系统 |
 | **FARS** | FutureHouse | 🔒 | 全栈自主科研系统 |
 | **AI Scientist** | SakanaAI | ✅ | 端到端自动化科学发现 (12.5K⭐) |
-| **AutoResearch** | Karpathy | ✅ | 单GPU研究Agent (49K⭐) |
+| **AutoResearch** | Karpathy | ✅ | 单GPU研究Agent (50K⭐) |
 | **nanobot** | HKUDS | ✅ | 超轻量OpenClaw (35K⭐) |
 | **zeroclaw** | zeroclaw-labs | ✅ | Rust快速自主AI (28K⭐) |
 
@@ -187,6 +187,7 @@
 
 | 日期 | 事件 |
 |------|------|
+| 2026-03-23 | autoresearch 突破 50K stars！🎉 |
 | 2026-03-22 | AutoResearchClaw 暴涨至 7.5K, AI-Research-SKILLs 5.4K 🔥 |
 | 2026-03-21 | autoresearch 突破 46K+ stars |
 | 2026-03-15 | OpenClaw 生态爆发 (100+项目) |
@@ -202,12 +203,12 @@
 
 | 指标 | 数值 |
 |------|:----:|
-| 项目总数 | 28+ |
+| 项目总数 | 29+ |
 | 论文精选 | 12 |
-| 总 Stars | 207K+ |
+| 总 Stars | 211K+ |
 | OpenClaw 生态 | 6+ 项目 |
-| AutoResearch 生态 | 6+ 项目 |
-| 最后更新 | 2026-03-22 |
+| AutoResearch 生态 | 5+ 项目 |
+| 最后更新 | 2026-03-23 |
 
 ---
 
@@ -228,4 +229,4 @@
 
 ---
 
-*最后更新: 2026-03-22*
+*最后更新: 2026-03-23*
