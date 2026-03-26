@@ -12,22 +12,22 @@
 
 ---
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026--03--23-brightgreen)](./trends)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-03-26-brightgreen)](./trends)
 [![Projects](https://img.shields.io/badge/Projects-29+-blue)](#-project-index)
-[![Papers](https://img.shields.io/badge/Papers-12-orange)](#-featured-papers)
-[![Total Stars](https://img.shields.io/badge/Stars-211K+-yellow)](#-statistics)
+[![Papers](https://img.shields.io/badge/Papers-2-orange)](#-featured-papers)
+[![Total Stars](https://img.shields.io/badge/Stars-223K+-yellow)](#-statistics)
 
 ---
 
 ## 🚀 What's New
 
-> **2026-03-23**: autoresearch hits 50K! 🎉
+> **2026-03-26**: autoresearch hits 51K! 🎉
 > 
-> - **autoresearch** breaks **50,007** ⭐ milestone (+964)
-> - **EvoScientist** grows to **1,500** ⭐ (+58)
-> - **InnoClaw** new entry at **194** ⭐ - AI research Agent for innovation
-> - **AutoResearchClaw** continues surge to **7,650** ⭐ (+144)
-> - Total stars now **211K+**
+> - **autoresearch** breaks **51,050** ⭐ milestone (+1,043)
+> - **AutoResearchClaw** surges to **7,820** ⭐ (+170)
+> - **AI-Research-SKILLs** grows to **5,520** ⭐ (+108)
+> - **nanobot** reaches **35,620** ⭐ (+129)
+> - Total stars now **223K+**
 
 ---
 
@@ -47,15 +47,9 @@
 
 | Rank | Project | Stars | Change | Description |
 |:----:|---------|:-----:|:------:|-------------|
-| 🥇 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 50.0K | +964 | Single-GPU auto-research agent by Karpathy |
-| 🥈 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | ⭐ 35.5K | +84 | Ultra-lightweight OpenClaw implementation |
-| 🥉 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | ⭐ 28.4K | +78 | Fast autonomous AI assistant in Rust |
-| 4 | [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | ⭐ 26.8K | +96 | Community collection of OpenClaw use cases |
-| 5 | [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) | ⭐ 15.3K | +48 | Open-source Agent Operating System |
-| 6 | [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | ⭐ 12.5K | +5 | Fully Automated Open-Ended Scientific Discovery |
-| 7 | [cft0808/edict](https://github.com/cft0808/edict) | ⭐ 12.0K | +72 | Multi-Agent Orchestration |
-| 8 | [nearai/ironclaw](https://github.com/nearai/ironclaw) | ⭐ 10.7K | +32 | OpenClaw in Rust for privacy & security |
-| 9 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | ⭐ 7.7K | 🚀+144 | **From idea to paper - fully autonomous** |
+| 🥇 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 51.0K | +1043 | Single-GPU auto-research agent by Karpathy |
+| 🥈 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | ⭐ 35.6K | +129 | Ultra-lightweight OpenClaw implementation |
+| 🥉 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | ⭐ 28.5K | +101 | Fast autonomous AI assistant in Rust |
 
 ---
 
@@ -65,56 +59,57 @@
 
 | Project | Stars | Description | Tags |
 |---------|:-----:|-------------|------|
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 50.0K | Single-GPU auto-research agent | `#AutoML` `#SingleGPU` |
-| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | ⭐ 7.7K | Autonomous research from idea to paper | `#AutoResearch` `#OpenClaw` 🚀 |
-| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | ⭐ 12.5K | Fully automated scientific discovery | `#Multi-Agent` `#End-to-End` |
-| [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | ⭐ 2.3K | Workshop-level automated discovery | `#Multi-Agent` `#TreeSearch` |
-| [EvoScientist/EvoScientist](https://github.com/EvoScientist/EvoScientist) | ⭐ 1.5K | Self-evolving AI Scientists | `#SelfEvolution` `#Research` 🆕 |
-| [SpectrAI-Initiative/InnoClaw](https://github.com/SpectrAI-Initiative/InnoClaw) | ⭐ 194 | AI research Agent for innovation | `#Innovation` `#OpenClaw` 🆕 |
-| [TIGER-AI-Lab/OpenResearcher](https://github.com/TIGER-AI-Lab/OpenResearcher) | ⭐ 435 | Deep research trajectory synthesis | `#DeepResearch` `#OpenSource` |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 51.0K | AI agents running research on single-GPU nanochat training automatically | `#AutoML` `#SingleGPU` |
+| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | ⭐ 12.5K | Towards Fully Automated Open-Ended Scientific Discovery | `#Multi-Agent` `#End-to-End` |
+| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | ⭐ 7.8K | Fully autonomous research from idea to paper | `#AutoResearch` `#OpenClaw` 🚀 从92暴涨至7.6K! |
+| [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | ⭐ 2.3K | Workshop-level automated scientific discovery via Agentic Tree Search | `#Multi-Agent` `#End-to-End` |
+| [EvoScientist/EvoScientist](https://github.com/EvoScientist/EvoScientist) | ⭐ 1.5K | Self-evolving AI Scientists | `#SelfEvolution` `#Research` 🆕 新收录 |
 
 ### 🔍 Deep Research Agents
 
 | Project | Stars | Description | Tags |
 |---------|:-----:|-------------|------|
-| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | ⭐ 4.5K | Cross-platform research aggregation | `#RAG` `#Multi-Source` |
-| [jkudish/librarium](https://github.com/jkudish/librarium) | ⭐ 114 | Multi-provider deep research CLI | `#CLI` `#MultiProvider` |
+| [TIGER-AI-Lab/OpenResearcher](https://github.com/TIGER-AI-Lab/OpenResearcher) | ⭐ 442 | Deep research trajectory synthesis | `#DeepResearch` `#OpenSource` |
+| [SpectrAI-Initiative/InnoClaw](https://github.com/SpectrAI-Initiative/InnoClaw) | ⭐ 198 | An AI research Agent for scientific innovation | `#Innovation` `#OpenClaw` 🆕 新收录 |
+| [jkudish/librarium](https://github.com/jkudish/librarium) | ⭐ 118 | Multi-provider deep research CLI | `#CLI` `#MultiProvider` |
 
 ### 📚 Literature Research
 
 | Project | Stars | Description | Tags |
 |---------|:-----:|-------------|------|
-| [dwzhu-pku/PaperBanana](https://github.com/dwzhu-pku/PaperBanana) | ⭐ 5.3K | Automated academic figures | `#Visualization` `#Academic` |
-| [juliye2025/evil-read-arxiv](https://github.com/juliye2025/evil-read-arxiv) | ⭐ 519 | Claude Code + Obsidian for papers | `#Obsidian` `#PaperReading` |
-| [ZimoLiao/scholaraio](https://github.com/ZimoLiao/scholaraio) | ⭐ 199 | AI-powered research terminal | `#Terminal` `#Research` |
-| [ymx10086/ResearchClaw](https://github.com/ymx10086/ResearchClaw) | ⭐ 196 | Personal research assistant on OpenClaw | `#OpenClaw` `#Assistant` |
+| [dwzhu-pku/PaperBanana](https://github.com/dwzhu-pku/PaperBanana) | ⭐ 5.4K | Automating Academic Illustration For AI Scientists | `#Visualization` `#Academic` |
+| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | ⭐ 4.5K | Cross-platform research aggregation across Reddit, X, YouTube, HN | `#Multi-Source` `#RAG` |
+| [juliye2025/evil-read-arxiv](https://github.com/juliye2025/evil-read-arxiv) | ⭐ 528 | Claude Code + Obsidian for papers | `#Obsidian` `#PaperReading` |
+| [ZimoLiao/scholaraio](https://github.com/ZimoLiao/scholaraio) | ⭐ 205 | AI agent-powered academic research terminal | `#Terminal` `#Research` |
+| [ymx10086/ResearchClaw](https://github.com/ymx10086/ResearchClaw) | ⭐ 201 | Personal AI research assistant built on OpenClaw | `#OpenClaw` `#Assistant` |
 
 ### 🌐 OpenClaw Ecosystem
 
 | Project | Stars | Description | Tags |
 |---------|:-----:|-------------|------|
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | ⭐ 35.5K | Ultra-lightweight OpenClaw | `#Lightweight` `#OpenClaw` |
-| [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | ⭐ 28.4K | Fast autonomous AI in Rust | `#Rust` `#Autonomous` |
-| [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | ⭐ 26.8K | Community use case collection | `#Community` `#UseCases` |
-| [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) | ⭐ 15.3K | Open-source Agent OS | `#OS` `#Agent` |
-| [nearai/ironclaw](https://github.com/nearai/ironclaw) | ⭐ 10.7K | OpenClaw in Rust for privacy | `#Rust` `#Privacy` |
-| [cft0808/edict](https://github.com/cft0808/edict) | ⭐ 12.0K | Multi-Agent Orchestration | `#MultiAgent` `#Chinese` |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | ⭐ 35.6K | Ultra-lightweight OpenClaw implementation | `#Lightweight` `#OpenClaw` |
+| [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | ⭐ 28.5K | Fast autonomous AI assistant in Rust | `#Rust` `#Autonomous` |
+| [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | ⭐ 26.9K | Community collection of OpenClaw use cases | `#Community` `#UseCases` |
+| [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) | ⭐ 15.3K | Open-source Agent Operating System | `#OS` `#Agent` |
+| [cft0808/edict](https://github.com/cft0808/edict) | ⭐ 12.1K | Multi-Agent Orchestration | `#MultiAgent` `#Chinese` |
+| [nearai/ironclaw](https://github.com/nearai/ironclaw) | ⭐ 10.7K | OpenClaw in Rust for privacy & security | `#Rust` `#Privacy` |
 
 ### 🛠️ Tools & Skills
 
 | Project | Stars | Description | Tags |
 |---------|:-----:|-------------|------|
-| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | ⭐ 5.4K | Comprehensive AI research skills library | `#Skills` `#Library` 🆕 |
-| [mims-harvard/ToolUniverse](https://github.com/mims-harvard/ToolUniverse) | ⭐ 1.1K | Democratizing AI scientists | `#Tools` `#Democratization` 🆕 |
+| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | ⭐ 5.5K | Comprehensive open-source library of AI research skills | `#Skills` `#Library` 🆕 新收录 |
+| [mims-harvard/ToolUniverse](https://github.com/mims-harvard/ToolUniverse) | ⭐ 1.1K | Democratizing AI scientists with ToolUniverse | `#Tools` `#Democratization` 🆕 新收录 |
 
 ### 🧪 Benchmarks & Frameworks
 
 | Project | Stars | Description | Tags |
 |---------|:-----:|-------------|------|
-| [facebookresearch/MLGym](https://github.com/facebookresearch/MLGym) | ⭐ 591 | AI Research Agents framework & benchmark | `#Meta` `#Benchmark` 🆕 |
-| [HKUDS/DeepInnovator](https://github.com/HKUDS/DeepInnovator) | ⭐ 205 | AI Research Assistant for discovery | `#Innovation` `#IdeaGeneration` |
-| [InternScience/SciEvalKit](https://github.com/InternScience/SciEvalKit) | ⭐ 76 | Scientific intelligence evaluation | `#Benchmark` `#Leaderboard` |
-| [facebookresearch/airs-bench](https://github.com/facebookresearch/airs-bench) | ⭐ 67 | Meta's AI Research Science benchmark | `#Meta` `#Benchmark` |
+| [facebookresearch/MLGym](https://github.com/facebookresearch/MLGym) | ⭐ 610 | A New Framework and Benchmark for Advancing AI Research Agents | `#Meta` `#Benchmark` `#Framework` 🆕 新收录 |
+| [HKUDS/DeepInnovator](https://github.com/HKUDS/DeepInnovator) | ⭐ 212 | AI Research Assistant for discovery | `#Innovation` `#IdeaGeneration` |
+| [InternScience/SciEvalKit](https://github.com/InternScience/SciEvalKit) | ⭐ 79 | Scientific intelligence evaluation | `#Benchmark` `#Leaderboard` |
+| [facebookresearch/airs-bench](https://github.com/facebookresearch/airs-bench) | ⭐ 69 | Meta's AI Research Science benchmark | `#Meta` `#Benchmark` |
+
 
 ---
 
@@ -124,11 +119,11 @@ Projects inspired by or extending Karpathy's autoresearch:
 
 | Project | Stars | Description |
 |---------|:-----:|-------------|
-| [davebcn87/pi-autoresearch](https://github.com/davebcn87/pi-autoresearch) | ⭐ 2.7K | Autonomous experiment loop for pi |
-| [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) | ⭐ 1.7K | Claude Autoresearch Skill |
-| [hyperspaceai/agi](https://github.com/hyperspaceai/agi) | ⭐ 1.2K | Distributed AGI with autonomous agents |
-| [trevin-creator/autoresearch-mlx](https://github.com/trevin-creator/autoresearch-mlx) | ⭐ 961 | Apple Silicon (MLX) port |
-| [RightNow-AI/autokernel](https://github.com/RightNow-AI/autokernel) | ⭐ 760 | Autoresearch for GPU kernels |
+| [davebcn87/pi-autoresearch](https://github.com/davebcn87/pi-autoresearch) | ⭐ 2.7K | Autonomous experiment loop extension for pi |
+| [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) | ⭐ 1.7K | Claude Autoresearch Skill — Autonomous goal-directed iteration |
+| [hyperspaceai/agi](https://github.com/hyperspaceai/agi) | ⭐ 1.1K | Distributed AGI system with autonomous AI agents |
+| [trevin-creator/autoresearch-mlx](https://github.com/trevin-creator/autoresearch-mlx) | ⭐ 968 | Apple Silicon (MLX) port of Karpathy's autoresearch |
+| [RightNow-AI/autokernel](https://github.com/RightNow-AI/autokernel) | ⭐ 768 | Autoresearch for GPU kernels optimization |
 
 ---
 
@@ -138,23 +133,13 @@ Projects inspired by or extending Karpathy's autoresearch:
 
 | Paper | Key Insight |
 |-------|-------------|
-| [Nurture-First Agent Development](https://arxiv.org/abs/2603.10808) | Saves 60% Agent development time |
-| [Emulating Clinician Cognition](https://arxiv.org/abs/2603.10677) | Improves diagnostic accuracy by 11.2% |
-| [AI Scientist via Synthetic Task Scaling](https://arxiv.org/abs/2603.11999) | Scaling AI scientist via synthetic tasks |
-| [The Agentic Researcher](https://arxiv.org/abs/2603.11234) | Practical guide for AI-assisted research |
-| [Toward Reliable LLMs for Science](https://arxiv.org/abs/2603.11876) | Trustworthy deployment of AI scientists |
+| [Nurture-First Agent Development: Building Domain-Expert AI Agents Through Conversational Knowledge Crystallization](https://arxiv.org/abs/2603.10808) | Saves 60% Agent development time |
+| [Emulating Clinician Cognition via Self-Evolving Deep Clinical Research](https://arxiv.org/abs/2603.10677) | Improves diagnostic accuracy by 11.2% |
 
 ### ⭐⭐⭐⭐ Recommended
 
 | Paper | Key Insight |
 |-------|-------------|
-| [Attack and Defense Landscape of Agentic AI](https://arxiv.org/abs/2603.11567) | Security challenges for AI agents |
-| [From Experiments to Expertise](https://arxiv.org/abs/2603.11456) | LLMs transform computational research |
-| [ClimateAgents](https://arxiv.org/abs/2603.10987) | Multi-agent for climate research |
-| [ELISA: Single-Cell Genomics Agent](https://arxiv.org/abs/2603.11234) | Expression-grounded discovery |
-| [Intent Formalization](https://arxiv.org/abs/2603.11765) | Challenges in agentic code generation |
-| [Materials Science with AI](https://arxiv.org/abs/2603.10543) | AI-driven materials science paradigm |
-| [TopoBench](https://arxiv.org/abs/2603.12133) | Reveals spatial reasoning limitations |
 
 ---
 
@@ -162,11 +147,12 @@ Projects inspired by or extending Karpathy's autoresearch:
 
 | Domain | Icon | Projects | Key Tools |
 |--------|:----:|:--------:|-----------|
-| General Science | 🔬 | 9 | AI-Scientist, AutoResearchClaw, EvoScientist, InnoClaw |
-| Computer Science | 💻 | 2 | autoresearch |
-| Literature Review | 📚 | 6 | PaperBanana, last30days-skill, OpenResearcher |
-| Infrastructure | 🏗️ | 6 | nanobot, zeroclaw, openfang, ironclaw |
-| Tools & Skills | 🛠️ | 4 | AI-Research-SKILLs, ToolUniverse |
+| Biology & Medicine | 🧬 | 0 | - |
+| Computer Science | 💻 | 1 | autoresearch |
+| Data Science | 📊 | 2 | scholaraio, ResearchClaw |
+| Literature Review | 📚 | 3 | last30days-skill, PaperBanana, OpenResearcher |
+| General Science | 🔬 | 5 | AI-Scientist, AI-Scientist-v2, AutoResearchClaw, EvoScientist |
+| Infrastructure | 🏗️ | 4 | nanobot, zeroclaw, openfang, ironclaw |
 
 ---
 
@@ -176,26 +162,26 @@ Projects inspired by or extending Karpathy's autoresearch:
 
 | System | Company | Status | Description |
 |--------|---------|:------:|-------------|
-| **AI Co-Scientist** | Google DeepMind | 🔒 | Multi-agent for hypothesis generation |
-| **FARS** | FutureHouse | 🔒 | Full-stack autonomous research |
-| **AI Scientist** | SakanaAI | ✅ | End-to-end automated discovery (12.5K⭐) |
-| **AutoResearch** | Karpathy | ✅ | Single-GPU research agent (50K⭐) |
-| **nanobot** | HKUDS | ✅ | Ultra-lightweight OpenClaw (35K⭐) |
-| **zeroclaw** | zeroclaw-labs | ✅ | Fast Rust AI assistant (28K⭐) |
+| **AI Co-Scientist** | Google DeepMind | 🔒 | Multi-agent system for hypothesis generation and experiment design |
+| **FARS** | FutureHouse | 🔒 | Full-stack autonomous research system |
+| **AI Scientist v2** | SakanaAI | ✅ | End-to-end automated scientific discovery |
+| **AutoResearch** | Karpathy | ✅ | Single-GPU research agent |
+| **Coscientist** | Multiple Labs | ✅ | Autonomous chemistry and materials research |
 
 ### 📊 Timeline (March 2026)
 
 | Date | Event |
 |------|-------|
-| 2026-03-23 | autoresearch breaks 50K stars! 🎉 |
-| 2026-03-22 | AutoResearchClaw explodes to 7.5K, AI-Research-SKILLs at 5.4K 🔥 |
-| 2026-03-21 | autoresearch reaches 46K+ stars |
-| 2026-03-15 | OpenClaw ecosystem explosion (100+ projects) |
+| 2026-03-26 | AutoResearchClaw hits 7.8K stars; autoresearch continues growth to 51K |
+| 2026-03-25 | AI-Research-SKILLs reaches 5.5K stars; edict growth accelerates |
+| 2026-03-24 | EvoScientist passes 1.5K stars milestone; nanobot ecosystem expands |
+| 2026-03-23 | autoresearch hits 50K stars; EvoScientist grows 58 stars to 1.5K |
+| 2026-03-22 | autoresearch ecosystem explodes: AutoResearchClaw 7.5K, AI-Research-SKILLs 5.4K |
 | 2026-03-12 | AI-Research-Agent-Stack launched |
-| 2026-03-11 | AI-Scientist-v2 released |
-| 2026-03-10 | Google AI Co-Scientist announced |
-| 2026-03-08 | Karpathy autoresearch trending |
-| 2026-02-15 | FARS system demonstration |
+| 2026-03-11 | AI-Scientist-v2 released by SakanaAI |
+| 2026-03-10 | Google DeepMind announces AI Co-Scientist |
+| 2026-03-08 | Karpathy autoresearch goes viral |
+| 2026-02-15 | FARS system demonstration by FutureHouse |
 
 ---
 
@@ -204,11 +190,11 @@ Projects inspired by or extending Karpathy's autoresearch:
 | Metric | Value |
 |--------|:-----:|
 | Total Projects | 29+ |
-| Featured Papers | 12 |
-| Total Stars | 211K+ |
+| Featured Papers | 2 |
+| Total Stars | 223K+ |
 | OpenClaw Ecosystem | 6+ projects |
 | AutoResearch Ecosystem | 5+ projects |
-| Last Updated | 2026-03-23 |
+| Last Updated | 2026-03-26 |
 
 ---
 
@@ -229,4 +215,4 @@ Maintained by **OpenClaw**
 
 ---
 
-*Last updated: 2026-03-23*
+*Last updated: 2026-03-26*
