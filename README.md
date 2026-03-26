@@ -1,8 +1,8 @@
 <div align="center">
   <img src="logo.svg" alt="AI Research Agent Stack" width="120" height="120">
-  
+
   # AI Research Agent Stack
-  
+
   > 🌟 **Looking Forward to the True Realization of AI Research Automation**
 </div>
 
@@ -15,19 +15,19 @@
 [![Last Updated](https://img.shields.io/badge/Updated-2026-03-26-brightgreen)](./trends)
 [![Projects](https://img.shields.io/badge/Projects-29+-blue)](#-project-index)
 [![Papers](https://img.shields.io/badge/Papers-2-orange)](#-featured-papers)
-[![Total Stars](https://img.shields.io/badge/Stars-223K+-yellow)](#-statistics)
+[![Total Stars](https://img.shields.io/badge/Stars-260K+-yellow)](#-statistics)
 
 ---
 
 ## 🚀 What's New
 
-> **2026-03-26**: autoresearch hits 51K! 🎉
-> 
-> - **autoresearch** breaks **51,050** ⭐ milestone (+1,043)
-> - **AutoResearchClaw** surges to **7,820** ⭐ (+170)
-> - **AI-Research-SKILLs** grows to **5,520** ⭐ (+108)
-> - **nanobot** reaches **35,620** ⭐ (+129)
-> - Total stars now **223K+**
+> **2026-03-26**: Added 4 new Deep Research projects! 🎉
+>
+> - **gpt-researcher** - 28.9K ⭐ Autonomous research with citations
+> - **open_deep_research** - 3.4K ⭐ LangChain's production-ready agent
+> - **deer-flow** - 2.9K ⭐ ByteDance's trending SuperAgent
+> - **hermes-agent** - 1.8K ⭐ Self-improving AI from Nous Research
+> - Total stars now **260K+**
 
 ---
 
@@ -47,9 +47,15 @@
 
 | Rank | Project | Stars | Change | Description |
 |:----:|---------|:-----:|:------:|-------------|
-| 🥇 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 51.0K | +1043 | Single-GPU auto-research agent by Karpathy |
+| 🥇 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 51.0K | +1043 | AI agents running research on single-GPU nanochat training automatically |
 | 🥈 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | ⭐ 35.6K | +129 | Ultra-lightweight OpenClaw implementation |
-| 🥉 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | ⭐ 28.5K | +101 | Fast autonomous AI assistant in Rust |
+| 🥉 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | ⭐ 28.9K | +0 | Autonomous agent for deep web and local research with citations |
+| 4 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | ⭐ 28.5K | +101 | Fast autonomous AI assistant in Rust |
+| 5 | [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | ⭐ 26.9K | +161 | Community collection of OpenClaw use cases |
+| 6 | [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) | ⭐ 15.3K | +75 | Open-source Agent Operating System |
+| 7 | [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | ⭐ 12.5K | +22 | Towards Fully Automated Open-Ended Scientific Discovery |
+| 8 | [cft0808/edict](https://github.com/cft0808/edict) | ⭐ 12.1K | +87 | Multi-Agent Orchestration |
+| 9 | [nearai/ironclaw](https://github.com/nearai/ironclaw) | ⭐ 10.7K | +60 | OpenClaw in Rust for privacy & security |
 
 ---
 
@@ -69,6 +75,10 @@
 
 | Project | Stars | Description | Tags |
 |---------|:-----:|-------------|------|
+| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | ⭐ 28.9K | Autonomous agent for deep web and local research with citations | `#DeepResearch` `#Citations` `#RAG` |
+| [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research) | ⭐ 3.4K | Open source deep research agent supporting multiple models and MCP servers | `#DeepResearch` `#MCP` `#OpenSource` 🆕 From LangChain - production ready |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | ⭐ 2.8K | Long-horizon SuperAgent that researches, codes, and creates with sandboxes and memories | `#SuperAgent` `#Multi-Agent` `#Sandbox` 🆕 Trending #1 on GitHub (Feb 28) - ByteDance |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | ⭐ 1.8K | Self-improving AI agent with built-in learning loop and skill creation | `#SelfImproving` `#MultiPlatform` `#Learning` 🆕 Creates skills from experience - Nous Research |
 | [TIGER-AI-Lab/OpenResearcher](https://github.com/TIGER-AI-Lab/OpenResearcher) | ⭐ 442 | Deep research trajectory synthesis | `#DeepResearch` `#OpenSource` |
 | [SpectrAI-Initiative/InnoClaw](https://github.com/SpectrAI-Initiative/InnoClaw) | ⭐ 198 | An AI research Agent for scientific innovation | `#Innovation` `#OpenClaw` 🆕 新收录 |
 | [jkudish/librarium](https://github.com/jkudish/librarium) | ⭐ 118 | Multi-provider deep research CLI | `#CLI` `#MultiProvider` |
@@ -133,8 +143,8 @@ Projects inspired by or extending Karpathy's autoresearch:
 
 | Paper | Key Insight |
 |-------|-------------|
-| [Nurture-First Agent Development: Building Domain-Expert AI Agents Through Conversational Knowledge Crystallization](https://arxiv.org/abs/2603.10808) | Saves 60% Agent development time |
-| [Emulating Clinician Cognition via Self-Evolving Deep Clinical Research](https://arxiv.org/abs/2603.10677) | Improves diagnostic accuracy by 11.2% |
+| [Nurture-First Agent Development: Building Domain-Expert AI A...](https://arxiv.org/abs/2603.10808) | Saves 60% Agent development time |
+| [Emulating Clinician Cognition via Self-Evolving Deep Clinica...](https://arxiv.org/abs/2603.10677) | Improves diagnostic accuracy by 11.2% |
 
 ### ⭐⭐⭐⭐ Recommended
 
@@ -172,6 +182,7 @@ Projects inspired by or extending Karpathy's autoresearch:
 
 | Date | Event |
 |------|-------|
+| 2026-03-26 | Added 4 new projects: deer-flow (ByteDance), hermes-agent, open_deep_research (LangChain), gpt-researcher |
 | 2026-03-26 | AutoResearchClaw hits 7.8K stars; autoresearch continues growth to 51K |
 | 2026-03-25 | AI-Research-SKILLs reaches 5.5K stars; edict growth accelerates |
 | 2026-03-24 | EvoScientist passes 1.5K stars milestone; nanobot ecosystem expands |
@@ -181,7 +192,6 @@ Projects inspired by or extending Karpathy's autoresearch:
 | 2026-03-11 | AI-Scientist-v2 released by SakanaAI |
 | 2026-03-10 | Google DeepMind announces AI Co-Scientist |
 | 2026-03-08 | Karpathy autoresearch goes viral |
-| 2026-02-15 | FARS system demonstration by FutureHouse |
 
 ---
 
@@ -191,7 +201,7 @@ Projects inspired by or extending Karpathy's autoresearch:
 |--------|:-----:|
 | Total Projects | 29+ |
 | Featured Papers | 2 |
-| Total Stars | 223K+ |
+| Total Stars | 260K+ |
 | OpenClaw Ecosystem | 6+ projects |
 | AutoResearch Ecosystem | 5+ projects |
 | Last Updated | 2026-03-26 |

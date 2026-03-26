@@ -73,6 +73,14 @@
       {
         "date": "2026-03-26",
         "event": {
+          "en": "Added 4 new projects: deer-flow (ByteDance), hermes-agent, open_deep_research (LangChain), gpt-researcher",
+          "zh": "新增4个项目：deer-flow（字节跳动）、hermes-agent、open_deep_research（LangChain）、gpt-researcher"
+        },
+        "source": "Discovery"
+      },
+      {
+        "date": "2026-03-26",
+        "event": {
           "en": "AutoResearchClaw hits 7.8K stars; autoresearch continues growth to 51K",
           "zh": "AutoResearchClaw突破7.8K星标; autoresearch持续增长至51K"
         },
@@ -718,6 +726,89 @@
       "domain": "literature-review",
       "updated": "2026-03-26",
       "change": "+4"
+    },
+    {
+      "id": "bytedance-deer-flow",
+      "name": "deer-flow",
+      "owner": "bytedance",
+      "url": "https://github.com/bytedance/deer-flow",
+      "stars": 2850,
+      "category": "deep-research",
+      "description": {
+        "en": "Long-horizon SuperAgent that researches, codes, and creates with sandboxes and memories",
+        "zh": "长时程SuperAgent，具备研究、编码和创作能力，支持沙盒和记忆"
+      },
+      "tags": [
+        "SuperAgent",
+        "Multi-Agent",
+        "Sandbox"
+      ],
+      "domain": "general-science",
+      "updated": "2026-03-26",
+      "created": "2026-02-15",
+      "highlight": "🆕 Trending #1 on GitHub (Feb 28) - ByteDance"
+    },
+    {
+      "id": "nousresearch-hermes-agent",
+      "name": "hermes-agent",
+      "owner": "NousResearch",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 1840,
+      "category": "deep-research",
+      "description": {
+        "en": "Self-improving AI agent with built-in learning loop and skill creation",
+        "zh": "自我改进的AI Agent，具备内置学习循环和技能创建能力"
+      },
+      "tags": [
+        "SelfImproving",
+        "MultiPlatform",
+        "Learning"
+      ],
+      "domain": "general-science",
+      "updated": "2026-03-26",
+      "created": "2026-02-01",
+      "highlight": "🆕 Creates skills from experience - Nous Research"
+    },
+    {
+      "id": "langchain-ai-open-deep-research",
+      "name": "open_deep_research",
+      "owner": "langchain-ai",
+      "url": "https://github.com/langchain-ai/open_deep_research",
+      "stars": 3420,
+      "category": "deep-research",
+      "description": {
+        "en": "Open source deep research agent supporting multiple models and MCP servers",
+        "zh": "开源深度研究Agent，支持多模型和MCP服务器"
+      },
+      "tags": [
+        "DeepResearch",
+        "MCP",
+        "OpenSource"
+      ],
+      "domain": "general-science",
+      "updated": "2026-03-26",
+      "created": "2026-01-20",
+      "highlight": "🆕 From LangChain - production ready"
+    },
+    {
+      "id": "assafelovic-gpt-researcher",
+      "name": "gpt-researcher",
+      "owner": "assafelovic",
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "stars": 28900,
+      "category": "deep-research",
+      "description": {
+        "en": "Autonomous agent for deep web and local research with citations",
+        "zh": "自主深度研究Agent，支持网络和本地研究，带引用"
+      },
+      "tags": [
+        "DeepResearch",
+        "Citations",
+        "RAG"
+      ],
+      "domain": "general-science",
+      "updated": "2026-03-26",
+      "created": "2023-05-01"
     }
   ],
   "autoresearch-ecosystem": [
@@ -907,7 +998,7 @@
   ],
   "statistics": {
     "totalProjects": 29,
-    "totalStars": 223859,
+    "totalStars": 260869,
     "openclawProjects": 6,
     "autoresearchEcosystem": 5,
     "lastUpdated": "2026-03-26"
